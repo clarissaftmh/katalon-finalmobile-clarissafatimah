@@ -17,4 +17,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.startApplication('C:\\Users\\ASUS\\Downloads\\Advantage+demo+3.2.apk', true)
+
+Mobile.tap(findTestObject('Object Repository/login/android.widget.ImageView'), 0)
+
+Mobile.tap(findTestObject('Object Repository/login/android.widget.TextView - LOGIN'), 0)
+
+Mobile.tap(findTestObject('Object Repository/login/username tap'), 0)
+
+Mobile.setText(findTestObject('Object Repository/login/input username'), 'clae12', 0)
+
+Mobile.tap(findTestObject('Object Repository/login/password tap'), 0)
+
+Mobile.setText(findTestObject('Object Repository/login/input password'), '1234!aA', 0)
+
+Mobile.tap(findTestObject('Object Repository/login/android.widget.Button - LOGIN'), 0)
+
+Mobile.tap(findTestObject('Object Repository/login/loggin yes'), 0)
+
+Mobile.tap(findTestObject('Object Repository/login/home'), 0)
+
+Mobile.closeApplication()
 
