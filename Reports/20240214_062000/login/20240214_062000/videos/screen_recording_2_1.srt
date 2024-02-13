@@ -1,0 +1,40 @@
+1
+00:00:00,002 --> 00:00:17,355
+1. startApplication("C:\Users\ASUS\Downloads\Advantage+demo+3.2.apk", true)
+
+2
+00:00:17,357 --> 00:00:20,881
+5. tap(findTestObject("Object Repository/login/android.widget.ImageView"), 0)
+
+3
+00:00:20,882 --> 00:00:22,694
+9. tap(findTestObject("Object Repository/login/android.widget.TextView - LOGIN"), 0)
+
+4
+00:00:22,697 --> 00:00:25,496
+13. tap(findTestObject("Object Repository/login/username tap"), 0)
+
+5
+00:00:25,496 --> 00:00:28,494
+17. setText(findTestObject("Object Repository/login/input username"), username, 0)
+
+6
+00:00:28,495 --> 00:00:29,888
+21. tap(findTestObject("Object Repository/login/password tap"), 0)
+
+7
+00:00:29,898 --> 00:00:32,684
+25. setText(findTestObject("Object Repository/login/input password"), password, 0)
+
+8
+00:00:32,686 --> 00:00:33,849
+29. tap(findTestObject("Object Repository/login/android.widget.Button - LOGIN"), 0)
+
+9
+00:00:33,850 --> 00:00:37,649
+33. if (verifyElementExist(findTestObject("Object Repository/login/uname pass incorrect"), 0) == true)
+
+10
+00:00:37,650 --> 00:00:37,653
+1. println("Username atau password salah!")
+

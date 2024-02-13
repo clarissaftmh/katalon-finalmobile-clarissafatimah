@@ -25,17 +25,21 @@ Mobile.tap(findTestObject('Object Repository/login/android.widget.TextView - LOG
 
 Mobile.tap(findTestObject('Object Repository/login/username tap'), 0)
 
-Mobile.setText(findTestObject('Object Repository/login/input username'), 'clae12', 0)
+Mobile.setText(findTestObject('Object Repository/login/input username'), username, 0)
 
 Mobile.tap(findTestObject('Object Repository/login/password tap'), 0)
 
-Mobile.setText(findTestObject('Object Repository/login/input password'), '1234!aA', 0)
+Mobile.setText(findTestObject('Object Repository/login/input password'), password, 0)
 
 Mobile.tap(findTestObject('Object Repository/login/android.widget.Button - LOGIN'), 0)
 
+if ((Mobile.verifyElementExist(findTestObject('Object Repository/login/uname pass incorrect'), 0) == true)) {
+	println("Username atau password salah!") 
+
+} else{
+println("Login berhasil!")
+
+//Mobile.tap(findTestObject('Object Repository/login/android.widget.Button - LOGIN'), 0)
 Mobile.tap(findTestObject('Object Repository/login/loggin yes'), 0)
-
 Mobile.tap(findTestObject('Object Repository/login/home'), 0)
-
-Mobile.closeApplication()
-
+}
