@@ -3407,3 +3407,64 @@
 [38;5;64m[ADB][0m Main activity name: 'com.Advantage.aShopping.SplashActivity'
 [38;5;48m[AndroidUiautomator2Driver@02f2 (f9463026)][0m Server packages are not going to be (re)installed
 [38;5;64m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session [39m[32m-[39m [90m- ms - -[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;64m[ADB][0m com.Advantage.aShopping was successfully uninstalled
+[38;5;64m[ADB][0m The application at 'C:\Users\ASUS\Downloads\Advantage+demo+3.2.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[38;5;64m[ADB][0m The installation of 'Advantage+demo+3.2.apk' took 2723ms
+[38;5;48m[AndroidUiautomator2Driver@02f2 (f9463026)][0m Starting UIAutomator2 server 7.0.0
+[38;5;48m[AndroidUiautomator2Driver@02f2 (f9463026)][0m Using UIAutomator2 server from 'C:\Users\ASUS\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v7.0.0.apk' and test from 'C:\Users\ASUS\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[38;5;48m[AndroidUiautomator2Driver@02f2 (f9463026)][0m Waiting up to 30000ms for UiAutomator2 to be online...
+[38;5;48m[AndroidUiautomator2Driver@02f2 (f9463026)][0m socket hang up
+[38;5;48m[AndroidUiautomator2Driver@02f2 (f9463026)][0m socket hang up
+[38;5;48m[AndroidUiautomator2Driver@02f2 (f9463026)][0m socket hang up
+[38;5;48m[AndroidUiautomator2Driver@02f2 (f9463026)][0m socket hang up
+[38;5;48m[AndroidUiautomator2Driver@02f2 (f9463026)][0m socket hang up
+[38;5;48m[AndroidUiautomator2Driver@02f2 (f9463026)][0m socket hang up
+[38;5;48m[AndroidUiautomator2Driver@02f2 (f9463026)][0m socket hang up
+[38;5;48m[AndroidUiautomator2Driver@02f2 (f9463026)][0m Determined the downstream protocol as 'W3C'
+[38;5;48m[AndroidUiautomator2Driver@02f2 (f9463026)][0m Screen already unlocked, doing nothing
+[38;5;48m[AndroidUiautomator2Driver@02f2 (f9463026)][0m Starting 'com.Advantage.aShopping/com.Advantage.aShopping.SplashActivity and waiting for 'com.Advantage.aShopping/com.Advantage.aShopping.SplashActivity'
+[38;5;16m[AppiumDriver@5ff5][0m New AndroidUiautomator2Driver session created successfully, session f9463026-c4cd-4ac5-8f22-b313cba0b2d0 added to master session list
+[38;5;48m[AndroidUiautomator2Driver@7fb9 (9e0efd27)][0m Shutting down because we waited 1800 seconds for a command
+[38;5;16m[AppiumDriver@5ff5][0m Ending session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[38;5;16m[AppiumDriver@5ff5][0m Removing session '9e0efd27-fd39-4752-9db2-9f742937e28e' from our master session list
+[38;5;48m[AndroidUiautomator2Driver@7fb9 (9e0efd27)][0m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[38;5;64m[ADB][0m com.Advantage.aShopping was successfully uninstalled
+[38;5;48m[AndroidUiautomator2Driver@7fb9 (9e0efd27)][0m Restoring hidden api policy to the device default configuration
+[38;5;48m[AndroidUiautomator2Driver@8121 (25267c6f)][0m Shutting down because we waited 1800 seconds for a command
+[38;5;16m[AppiumDriver@5ff5][0m Ending session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[38;5;16m[AppiumDriver@5ff5][0m Removing session '25267c6f-12a4-4660-8639-79017ebd2f7d' from our master session list
+[38;5;48m[AndroidUiautomator2Driver@8121 (25267c6f)][0m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[38;5;64m[ADB][0m com.Advantage.aShopping was not uninstalled, because it was not present on the device
+[38;5;48m[AndroidUiautomator2Driver@8121 (25267c6f)][0m Restoring hidden api policy to the device default configuration
+[38;5;48m[AndroidUiautomator2Driver@3954 (67ab3ff8)][0m Shutting down because we waited 1800 seconds for a command
+[38;5;16m[AppiumDriver@5ff5][0m Ending session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[38;5;16m[AppiumDriver@5ff5][0m Removing session '67ab3ff8-5293-482f-a576-374ed621de97' from our master session list
+[38;5;48m[AndroidUiautomator2Driver@3954 (67ab3ff8)][0m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[38;5;64m[ADB][0m com.Advantage.aShopping was not uninstalled, because it was not present on the device
+[38;5;48m[AndroidUiautomator2Driver@3954 (67ab3ff8)][0m Restoring hidden api policy to the device default configuration
+[38;5;48m[AndroidUiautomator2Driver@e020 (a6024c96)][0m Shutting down because we waited 1800 seconds for a command
+[38;5;16m[AppiumDriver@5ff5][0m Ending session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[38;5;16m[AppiumDriver@5ff5][0m Removing session 'a6024c96-ec15-4dbc-a728-bff0f0b3cf73' from our master session list
+[38;5;48m[AndroidUiautomator2Driver@e020 (a6024c96)][0m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[38;5;64m[ADB][0m com.Advantage.aShopping was not uninstalled, because it was not present on the device
+[38;5;48m[AndroidUiautomator2Driver@e020 (a6024c96)][0m Restoring hidden api policy to the device default configuration
+[38;5;48m[AndroidUiautomator2Driver@e6b4 (8068e877)][0m Shutting down because we waited 1800 seconds for a command
+[38;5;16m[AppiumDriver@5ff5][0m Ending session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[38;5;16m[AppiumDriver@5ff5][0m Removing session '8068e877-49ea-4b10-8b1e-999b53577505' from our master session list
+[38;5;48m[AndroidUiautomator2Driver@e6b4 (8068e877)][0m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[38;5;64m[ADB][0m com.Advantage.aShopping was successfully uninstalled
+[38;5;48m[AndroidUiautomator2Driver@e6b4 (8068e877)][0m Restoring hidden api policy to the device default configuration
+[38;5;48m[AndroidUiautomator2Driver@c8d4 (85c84fca)][0m Shutting down because we waited 1800 seconds for a command
+[38;5;16m[AppiumDriver@5ff5][0m Ending session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[38;5;16m[AppiumDriver@5ff5][0m Removing session '85c84fca-e882-4964-90fd-5367edd3c6f5' from our master session list
+[38;5;48m[AndroidUiautomator2Driver@c8d4 (85c84fca)][0m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[38;5;64m[ADB][0m com.Advantage.aShopping was not uninstalled, because it was not present on the device
+[38;5;48m[AndroidUiautomator2Driver@c8d4 (85c84fca)][0m Restoring hidden api policy to the device default configuration
+[38;5;48m[AndroidUiautomator2Driver@02f2 (f9463026)][0m Shutting down because we waited 1800 seconds for a command
+[38;5;16m[AppiumDriver@5ff5][0m Ending session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[38;5;16m[AppiumDriver@5ff5][0m Removing session 'f9463026-c4cd-4ac5-8f22-b313cba0b2d0' from our master session list
+[38;5;48m[AndroidUiautomator2Driver@02f2 (f9463026)][0m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[38;5;64m[ADB][0m com.Advantage.aShopping was not uninstalled, because it was not present on the device
+[38;5;48m[AndroidUiautomator2Driver@02f2 (f9463026)][0m Restoring hidden api policy to the device default configuration

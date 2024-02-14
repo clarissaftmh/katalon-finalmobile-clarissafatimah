@@ -33,13 +33,38 @@ Mobile.setText(findTestObject('Object Repository/login/input password'), passwor
 
 Mobile.tap(findTestObject('Object Repository/login/android.widget.Button - LOGIN'), 0)
 
-if ((Mobile.verifyElementExist(findTestObject('Object Repository/login/uname pass incorrect'), 0) == true)) {
-	println("Username atau password salah!") 
+def waitTime = 20// Waktu tunggu dalam detik
 
-} else{
-println("Login berhasil!")
-
-//Mobile.tap(findTestObject('Object Repository/login/android.widget.Button - LOGIN'), 0)
-Mobile.tap(findTestObject('Object Repository/login/loggin yes'), 0)
-Mobile.tap(findTestObject('Object Repository/login/home'), 0)
+// Menunggu untuk memastikan elemen username/pass salah tidak ditemukan
+if (!Mobile.verifyElementVisible(findTestObject('Object Repository/login/loggin yes'), waitTime)) {
+	// Jika elemen username/pass salah tidak ditemukan, lanjutkan ke langkah berikutnya
+		Mobile.tap(findTestObject('Object Repository/login/loggin yes'), 0)
+		Mobile.tap(findTestObject('Object Repository/login/home'), 0)
+	if (Mobile.verifyElementVisible(findTestObject('Object Repository/login/uname pass incorrect'), waitTime)) {
+		println("Username atau password salah!")
+	} else {
+		println("Element untuk login berhasil tidak ditemukan!")
+	}
 }
+
+//if ((Mobile.verifyElementVisible(findTestObject('Object Repository/login/uname pass incorrect'), 0) == true)) {
+//	println("Username atau password salah!") 
+//} else((Mobile.verifyElementVisible(findTestObject('Object Repository/login/loggin yes'), 0) == true )){
+//	println("Login berhasil!")
+//	Mobile.tap(findTestObject('Object Repository/login/loggin yes'), 0)
+//	Mobile.tap(findTestObject('Object Repository/login/home'), 0)
+//	}
+
+
+//
+//
+//if ((Mobile.verifyElementExist(findTestObject('Object Repository/login/loggin yes'), 0) == true )) {
+//	println("Login berhasil!")
+//	
+//	//Mobile.tap(findTestObject('Object Repository/login/android.widget.Button - LOGIN'), 0)
+//	Mobile.tap(findTestObject('Object Repository/login/loggin yes'), 0)
+//	Mobile.tap(findTestObject('Object Repository/login/home'), 0)
+//}else {
+//	Mobile.verifyElementExist(findTestObject('Object Repository/login/uname pass incorrect'), 0)
+//	println("Username atau password salah!")
+//	

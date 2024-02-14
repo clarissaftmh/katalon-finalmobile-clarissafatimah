@@ -1,0 +1,1747 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-02-13T23:42:27.437705600Z</date>
+  <millis>1707867747437</millis>
+  <nanos>705600</nanos>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/login</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="rerunTestFailImmediately">true</property>
+  <property name="retryCount">3</property>
+  <property name="name">login</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/login</property>
+</record>
+<record>
+  <date>2024-02-13T23:42:27.459944Z</date>
+  <millis>1707867747459</millis>
+  <nanos>944000</nanos>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = ASUS - LAPTOP-86QR281O</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostName">ASUS - LAPTOP-86QR281O</property>
+</record>
+<record>
+  <date>2024-02-13T23:42:27.460946200Z</date>
+  <millis>1707867747460</millis>
+  <nanos>946200</nanos>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 11 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="os">Windows 11 64bit</property>
+</record>
+<record>
+  <date>2024-02-13T23:42:27.460946200Z</date>
+  <millis>1707867747460</millis>
+  <nanos>946200</nanos>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.18.137</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostAddress">192.168.18.137</property>
+</record>
+<record>
+  <date>2024-02-13T23:42:27.462456700Z</date>
+  <millis>1707867747462</millis>
+  <nanos>456700</nanos>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 9.3.0.212</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="katalonVersion">9.3.0.212</property>
+</record>
+<record>
+  <date>2024-02-13T23:42:27.777878500Z</date>
+  <millis>1707867747777</millis>
+  <nanos>878500</nanos>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/login</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">3</property>
+  <property name="name">Test Cases/login</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/login</property>
+  <property name="source">C:\Users\ASUS\Documents\Bismillah BFLP IT\BOOTCAMP IT\Katalon\katalon-finalmobile-clarissafatimah\Test Cases\login.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">0</property>
+</record>
+<record>
+  <date>2024-02-13T23:42:27.997823600Z</date>
+  <millis>1707867747997</millis>
+  <nanos>823600</nanos>
+  <sequence>7</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/login has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script1280118229247100.groovy: 60: Unexpected input: &amp;apos;{\nprintln(&amp;quot;Login berhasil!&amp;quot;)\n\n//Mobile.tap(findTestObject(&amp;apos;Object Repository/login/android.widget.Button - LOGIN&amp;apos;), 0)\nMobile.tap(findTestObject(&amp;apos;Object Repository/login/loggin yes&amp;apos;), 0)\nMobile.tap(findTestObject(&amp;apos;Object Repository/login/home&amp;apos;), 0)\n}\n\n\n//\n//\n//if ((Mobile.verifyElementExist(findTestObject(&amp;apos;Object Repository/login/loggin yes&amp;apos;), 0) == true )) {\n//\tprintln(&amp;quot;Login berhasil!&amp;quot;)\n//\t\n//\t//Mobile.tap(findTestObject(&amp;apos;Object Repository/login/android.widget.Button - LOGIN&amp;apos;), 0)\n//\tMobile.tap(findTestObject(&amp;apos;Object Repository/login/loggin yes&amp;apos;), 0)\n//\tMobile.tap(findTestObject(&amp;apos;Object Repository/login/home&amp;apos;), 0)\n//}else {\n//\tMobile.verifyElementExist(findTestObject(&amp;apos;Object Repository/login/uname pass incorrect&amp;apos;), 0)\n//\tprintln(&amp;quot;Username atau password salah!&amp;quot;)\n//\t\n}&amp;apos; @ line 60, column 1.
+   }
+   ^
+
+1 error
+</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script1280118229247100.groovy: 60: Unexpected input: &apos;{\nprintln(&quot;Login berhasil!&quot;)\n\n//Mobile.tap(findTestObject(&apos;Object Repository/login/android.widget.Button - LOGIN&apos;), 0)\nMobile.tap(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0)\nMobile.tap(findTestObject(&apos;Object Repository/login/home&apos;), 0)\n}\n\n\n//\n//\n//if ((Mobile.verifyElementExist(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0) == true )) {\n//\tprintln(&quot;Login berhasil!&quot;)\n//\t\n//\t//Mobile.tap(findTestObject(&apos;Object Repository/login/android.widget.Button - LOGIN&apos;), 0)\n//\tMobile.tap(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0)\n//\tMobile.tap(findTestObject(&apos;Object Repository/login/home&apos;), 0)\n//}else {\n//\tMobile.verifyElementExist(findTestObject(&apos;Object Repository/login/uname pass incorrect&apos;), 0)\n//\tprintln(&quot;Username atau password salah!&quot;)\n//\t\n}&apos; @ line 60, column 1.
+   }
+   ^
+
+1 error
+
+	at org.apache.groovy.parser.antlr4.AstBuilder.collectSyntaxError(AstBuilder.java:4321)
+	at org.apache.groovy.parser.antlr4.AstBuilder.access$000(AstBuilder.java:176)
+	at org.apache.groovy.parser.antlr4.AstBuilder$1.syntaxError(AstBuilder.java:4332)
+	at groovyjarjarantlr4.v4.runtime.ProxyErrorListener.syntaxError(ProxyErrorListener.java:44)
+	at groovyjarjarantlr4.v4.runtime.Parser.notifyErrorListeners(Parser.java:543)
+	at groovyjarjarantlr4.v4.runtime.DefaultErrorStrategy.notifyErrorListeners(DefaultErrorStrategy.java:154)
+	at org.apache.groovy.parser.antlr4.internal.DescriptiveErrorStrategy.reportNoViableAlternative(DescriptiveErrorStrategy.java:92)
+	at groovyjarjarantlr4.v4.runtime.DefaultErrorStrategy.reportError(DefaultErrorStrategy.java:139)
+	at org.apache.groovy.parser.antlr4.GroovyParser.pathExpression(GroovyParser.java:9500)
+	at org.apache.groovy.parser.antlr4.GroovyParser.postfixExpression(GroovyParser.java:8108)
+	at org.apache.groovy.parser.antlr4.GroovyParser.expression(GroovyParser.java:8650)
+	at org.apache.groovy.parser.antlr4.GroovyParser.commandExpression(GroovyParser.java:9299)
+	at org.apache.groovy.parser.antlr4.GroovyParser.statementExpression(GroovyParser.java:8067)
+	at org.apache.groovy.parser.antlr4.GroovyParser.statement(GroovyParser.java:6915)
+	at org.apache.groovy.parser.antlr4.GroovyParser.ifElseStatement(GroovyParser.java:6055)
+	at org.apache.groovy.parser.antlr4.GroovyParser.conditionalStatement(GroovyParser.java:5954)
+	at org.apache.groovy.parser.antlr4.GroovyParser.statement(GroovyParser.java:6792)
+	at org.apache.groovy.parser.antlr4.GroovyParser.scriptStatement(GroovyParser.java:514)
+	at org.apache.groovy.parser.antlr4.GroovyParser.scriptStatements(GroovyParser.java:421)
+	at org.apache.groovy.parser.antlr4.GroovyParser.compilationUnit(GroovyParser.java:357)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:250)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:228)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildAST(AstBuilder.java:269)
+	at org.apache.groovy.parser.antlr4.Antlr4ParserPlugin.buildAST(Antlr4ParserPlugin.java:58)
+	at com.kms.katalon.core.main.TestCaseMethodNodeCollector.&lt;init&gt;(TestCaseMethodNodeCollector.java:43)
+	at com.kms.katalon.core.main.TestCaseExecutor.processScriptPreparationPhase(TestCaseExecutor.java:184)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:259)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707867741834.run(TempTestSuite1707867741834.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</property>
+  <property name="failed.exception.message">startup failed:
+Script1280118229247100.groovy: 60: Unexpected input: &apos;{\nprintln(&quot;Login berhasil!&quot;)\n\n//Mobile.tap(findTestObject(&apos;Object Repository/login/android.widget.Button - LOGIN&apos;), 0)\nMobile.tap(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0)\nMobile.tap(findTestObject(&apos;Object Repository/login/home&apos;), 0)\n}\n\n\n//\n//\n//if ((Mobile.verifyElementExist(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0) == true )) {\n//\tprintln(&quot;Login berhasil!&quot;)\n//\t\n//\t//Mobile.tap(findTestObject(&apos;Object Repository/login/android.widget.Button - LOGIN&apos;), 0)\n//\tMobile.tap(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0)\n//\tMobile.tap(findTestObject(&apos;Object Repository/login/home&apos;), 0)\n//}else {\n//\tMobile.verifyElementExist(findTestObject(&apos;Object Repository/login/uname pass incorrect&apos;), 0)\n//\tprintln(&quot;Username atau password salah!&quot;)\n//\t\n}&apos; @ line 60, column 1.
+   }
+   ^
+
+1 error
+</property>
+</record>
+<record>
+  <date>2024-02-13T23:42:28.007841600Z</date>
+  <millis>1707867748007</millis>
+  <nanos>841600</nanos>
+  <sequence>8</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/login</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="remainingRetryCount">3</property>
+  <property name="currentRetryCount">0</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2024-02-13T23:42:28.018393400Z</date>
+  <millis>1707867748018</millis>
+  <nanos>393400</nanos>
+  <sequence>9</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/login</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">2</property>
+  <property name="name">Test Cases/login</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/login</property>
+  <property name="source">C:\Users\ASUS\Documents\Bismillah BFLP IT\BOOTCAMP IT\Katalon\katalon-finalmobile-clarissafatimah\Test Cases\login.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">1</property>
+</record>
+<record>
+  <date>2024-02-13T23:42:28.144224600Z</date>
+  <millis>1707867748144</millis>
+  <nanos>224600</nanos>
+  <sequence>11</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/login has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script1280118467710500.groovy: 60: Unexpected input: &amp;apos;{\nprintln(&amp;quot;Login berhasil!&amp;quot;)\n\n//Mobile.tap(findTestObject(&amp;apos;Object Repository/login/android.widget.Button - LOGIN&amp;apos;), 0)\nMobile.tap(findTestObject(&amp;apos;Object Repository/login/loggin yes&amp;apos;), 0)\nMobile.tap(findTestObject(&amp;apos;Object Repository/login/home&amp;apos;), 0)\n}\n\n\n//\n//\n//if ((Mobile.verifyElementExist(findTestObject(&amp;apos;Object Repository/login/loggin yes&amp;apos;), 0) == true )) {\n//\tprintln(&amp;quot;Login berhasil!&amp;quot;)\n//\t\n//\t//Mobile.tap(findTestObject(&amp;apos;Object Repository/login/android.widget.Button - LOGIN&amp;apos;), 0)\n//\tMobile.tap(findTestObject(&amp;apos;Object Repository/login/loggin yes&amp;apos;), 0)\n//\tMobile.tap(findTestObject(&amp;apos;Object Repository/login/home&amp;apos;), 0)\n//}else {\n//\tMobile.verifyElementExist(findTestObject(&amp;apos;Object Repository/login/uname pass incorrect&amp;apos;), 0)\n//\tprintln(&amp;quot;Username atau password salah!&amp;quot;)\n//\t\n}&amp;apos; @ line 60, column 1.
+   }
+   ^
+
+1 error
+</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script1280118467710500.groovy: 60: Unexpected input: &apos;{\nprintln(&quot;Login berhasil!&quot;)\n\n//Mobile.tap(findTestObject(&apos;Object Repository/login/android.widget.Button - LOGIN&apos;), 0)\nMobile.tap(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0)\nMobile.tap(findTestObject(&apos;Object Repository/login/home&apos;), 0)\n}\n\n\n//\n//\n//if ((Mobile.verifyElementExist(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0) == true )) {\n//\tprintln(&quot;Login berhasil!&quot;)\n//\t\n//\t//Mobile.tap(findTestObject(&apos;Object Repository/login/android.widget.Button - LOGIN&apos;), 0)\n//\tMobile.tap(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0)\n//\tMobile.tap(findTestObject(&apos;Object Repository/login/home&apos;), 0)\n//}else {\n//\tMobile.verifyElementExist(findTestObject(&apos;Object Repository/login/uname pass incorrect&apos;), 0)\n//\tprintln(&quot;Username atau password salah!&quot;)\n//\t\n}&apos; @ line 60, column 1.
+   }
+   ^
+
+1 error
+
+	at org.apache.groovy.parser.antlr4.AstBuilder.collectSyntaxError(AstBuilder.java:4321)
+	at org.apache.groovy.parser.antlr4.AstBuilder.access$000(AstBuilder.java:176)
+	at org.apache.groovy.parser.antlr4.AstBuilder$1.syntaxError(AstBuilder.java:4332)
+	at groovyjarjarantlr4.v4.runtime.ProxyErrorListener.syntaxError(ProxyErrorListener.java:44)
+	at groovyjarjarantlr4.v4.runtime.Parser.notifyErrorListeners(Parser.java:543)
+	at groovyjarjarantlr4.v4.runtime.DefaultErrorStrategy.notifyErrorListeners(DefaultErrorStrategy.java:154)
+	at org.apache.groovy.parser.antlr4.internal.DescriptiveErrorStrategy.reportNoViableAlternative(DescriptiveErrorStrategy.java:92)
+	at groovyjarjarantlr4.v4.runtime.DefaultErrorStrategy.reportError(DefaultErrorStrategy.java:139)
+	at org.apache.groovy.parser.antlr4.GroovyParser.pathExpression(GroovyParser.java:9500)
+	at org.apache.groovy.parser.antlr4.GroovyParser.postfixExpression(GroovyParser.java:8108)
+	at org.apache.groovy.parser.antlr4.GroovyParser.expression(GroovyParser.java:8650)
+	at org.apache.groovy.parser.antlr4.GroovyParser.commandExpression(GroovyParser.java:9299)
+	at org.apache.groovy.parser.antlr4.GroovyParser.statementExpression(GroovyParser.java:8067)
+	at org.apache.groovy.parser.antlr4.GroovyParser.statement(GroovyParser.java:6915)
+	at org.apache.groovy.parser.antlr4.GroovyParser.ifElseStatement(GroovyParser.java:6055)
+	at org.apache.groovy.parser.antlr4.GroovyParser.conditionalStatement(GroovyParser.java:5954)
+	at org.apache.groovy.parser.antlr4.GroovyParser.statement(GroovyParser.java:6792)
+	at org.apache.groovy.parser.antlr4.GroovyParser.scriptStatement(GroovyParser.java:514)
+	at org.apache.groovy.parser.antlr4.GroovyParser.scriptStatements(GroovyParser.java:421)
+	at org.apache.groovy.parser.antlr4.GroovyParser.compilationUnit(GroovyParser.java:357)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:250)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:228)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildAST(AstBuilder.java:269)
+	at org.apache.groovy.parser.antlr4.Antlr4ParserPlugin.buildAST(Antlr4ParserPlugin.java:58)
+	at com.kms.katalon.core.main.TestCaseMethodNodeCollector.&lt;init&gt;(TestCaseMethodNodeCollector.java:43)
+	at com.kms.katalon.core.main.TestCaseExecutor.processScriptPreparationPhase(TestCaseExecutor.java:184)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:259)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707867741834.run(TempTestSuite1707867741834.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</property>
+  <property name="failed.exception.message">startup failed:
+Script1280118467710500.groovy: 60: Unexpected input: &apos;{\nprintln(&quot;Login berhasil!&quot;)\n\n//Mobile.tap(findTestObject(&apos;Object Repository/login/android.widget.Button - LOGIN&apos;), 0)\nMobile.tap(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0)\nMobile.tap(findTestObject(&apos;Object Repository/login/home&apos;), 0)\n}\n\n\n//\n//\n//if ((Mobile.verifyElementExist(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0) == true )) {\n//\tprintln(&quot;Login berhasil!&quot;)\n//\t\n//\t//Mobile.tap(findTestObject(&apos;Object Repository/login/android.widget.Button - LOGIN&apos;), 0)\n//\tMobile.tap(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0)\n//\tMobile.tap(findTestObject(&apos;Object Repository/login/home&apos;), 0)\n//}else {\n//\tMobile.verifyElementExist(findTestObject(&apos;Object Repository/login/uname pass incorrect&apos;), 0)\n//\tprintln(&quot;Username atau password salah!&quot;)\n//\t\n}&apos; @ line 60, column 1.
+   }
+   ^
+
+1 error
+</property>
+</record>
+<record>
+  <date>2024-02-13T23:42:28.152276700Z</date>
+  <millis>1707867748152</millis>
+  <nanos>276700</nanos>
+  <sequence>12</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/login</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="remainingRetryCount">2</property>
+  <property name="currentRetryCount">1</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2024-02-13T23:42:28.159802100Z</date>
+  <millis>1707867748159</millis>
+  <nanos>802100</nanos>
+  <sequence>13</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/login</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">1</property>
+  <property name="name">Test Cases/login</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/login</property>
+  <property name="source">C:\Users\ASUS\Documents\Bismillah BFLP IT\BOOTCAMP IT\Katalon\katalon-finalmobile-clarissafatimah\Test Cases\login.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">2</property>
+</record>
+<record>
+  <date>2024-02-13T23:42:28.245450Z</date>
+  <millis>1707867748245</millis>
+  <nanos>450000</nanos>
+  <sequence>15</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/login has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script1280118608917800.groovy: 60: Unexpected input: &amp;apos;{\nprintln(&amp;quot;Login berhasil!&amp;quot;)\n\n//Mobile.tap(findTestObject(&amp;apos;Object Repository/login/android.widget.Button - LOGIN&amp;apos;), 0)\nMobile.tap(findTestObject(&amp;apos;Object Repository/login/loggin yes&amp;apos;), 0)\nMobile.tap(findTestObject(&amp;apos;Object Repository/login/home&amp;apos;), 0)\n}\n\n\n//\n//\n//if ((Mobile.verifyElementExist(findTestObject(&amp;apos;Object Repository/login/loggin yes&amp;apos;), 0) == true )) {\n//\tprintln(&amp;quot;Login berhasil!&amp;quot;)\n//\t\n//\t//Mobile.tap(findTestObject(&amp;apos;Object Repository/login/android.widget.Button - LOGIN&amp;apos;), 0)\n//\tMobile.tap(findTestObject(&amp;apos;Object Repository/login/loggin yes&amp;apos;), 0)\n//\tMobile.tap(findTestObject(&amp;apos;Object Repository/login/home&amp;apos;), 0)\n//}else {\n//\tMobile.verifyElementExist(findTestObject(&amp;apos;Object Repository/login/uname pass incorrect&amp;apos;), 0)\n//\tprintln(&amp;quot;Username atau password salah!&amp;quot;)\n//\t\n}&amp;apos; @ line 60, column 1.
+   }
+   ^
+
+1 error
+</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script1280118608917800.groovy: 60: Unexpected input: &apos;{\nprintln(&quot;Login berhasil!&quot;)\n\n//Mobile.tap(findTestObject(&apos;Object Repository/login/android.widget.Button - LOGIN&apos;), 0)\nMobile.tap(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0)\nMobile.tap(findTestObject(&apos;Object Repository/login/home&apos;), 0)\n}\n\n\n//\n//\n//if ((Mobile.verifyElementExist(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0) == true )) {\n//\tprintln(&quot;Login berhasil!&quot;)\n//\t\n//\t//Mobile.tap(findTestObject(&apos;Object Repository/login/android.widget.Button - LOGIN&apos;), 0)\n//\tMobile.tap(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0)\n//\tMobile.tap(findTestObject(&apos;Object Repository/login/home&apos;), 0)\n//}else {\n//\tMobile.verifyElementExist(findTestObject(&apos;Object Repository/login/uname pass incorrect&apos;), 0)\n//\tprintln(&quot;Username atau password salah!&quot;)\n//\t\n}&apos; @ line 60, column 1.
+   }
+   ^
+
+1 error
+
+	at org.apache.groovy.parser.antlr4.AstBuilder.collectSyntaxError(AstBuilder.java:4321)
+	at org.apache.groovy.parser.antlr4.AstBuilder.access$000(AstBuilder.java:176)
+	at org.apache.groovy.parser.antlr4.AstBuilder$1.syntaxError(AstBuilder.java:4332)
+	at groovyjarjarantlr4.v4.runtime.ProxyErrorListener.syntaxError(ProxyErrorListener.java:44)
+	at groovyjarjarantlr4.v4.runtime.Parser.notifyErrorListeners(Parser.java:543)
+	at groovyjarjarantlr4.v4.runtime.DefaultErrorStrategy.notifyErrorListeners(DefaultErrorStrategy.java:154)
+	at org.apache.groovy.parser.antlr4.internal.DescriptiveErrorStrategy.reportNoViableAlternative(DescriptiveErrorStrategy.java:92)
+	at groovyjarjarantlr4.v4.runtime.DefaultErrorStrategy.reportError(DefaultErrorStrategy.java:139)
+	at org.apache.groovy.parser.antlr4.GroovyParser.pathExpression(GroovyParser.java:9500)
+	at org.apache.groovy.parser.antlr4.GroovyParser.postfixExpression(GroovyParser.java:8108)
+	at org.apache.groovy.parser.antlr4.GroovyParser.expression(GroovyParser.java:8650)
+	at org.apache.groovy.parser.antlr4.GroovyParser.commandExpression(GroovyParser.java:9299)
+	at org.apache.groovy.parser.antlr4.GroovyParser.statementExpression(GroovyParser.java:8067)
+	at org.apache.groovy.parser.antlr4.GroovyParser.statement(GroovyParser.java:6915)
+	at org.apache.groovy.parser.antlr4.GroovyParser.ifElseStatement(GroovyParser.java:6055)
+	at org.apache.groovy.parser.antlr4.GroovyParser.conditionalStatement(GroovyParser.java:5954)
+	at org.apache.groovy.parser.antlr4.GroovyParser.statement(GroovyParser.java:6792)
+	at org.apache.groovy.parser.antlr4.GroovyParser.scriptStatement(GroovyParser.java:514)
+	at org.apache.groovy.parser.antlr4.GroovyParser.scriptStatements(GroovyParser.java:421)
+	at org.apache.groovy.parser.antlr4.GroovyParser.compilationUnit(GroovyParser.java:357)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:250)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:228)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildAST(AstBuilder.java:269)
+	at org.apache.groovy.parser.antlr4.Antlr4ParserPlugin.buildAST(Antlr4ParserPlugin.java:58)
+	at com.kms.katalon.core.main.TestCaseMethodNodeCollector.&lt;init&gt;(TestCaseMethodNodeCollector.java:43)
+	at com.kms.katalon.core.main.TestCaseExecutor.processScriptPreparationPhase(TestCaseExecutor.java:184)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:259)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707867741834.run(TempTestSuite1707867741834.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</property>
+  <property name="failed.exception.message">startup failed:
+Script1280118608917800.groovy: 60: Unexpected input: &apos;{\nprintln(&quot;Login berhasil!&quot;)\n\n//Mobile.tap(findTestObject(&apos;Object Repository/login/android.widget.Button - LOGIN&apos;), 0)\nMobile.tap(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0)\nMobile.tap(findTestObject(&apos;Object Repository/login/home&apos;), 0)\n}\n\n\n//\n//\n//if ((Mobile.verifyElementExist(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0) == true )) {\n//\tprintln(&quot;Login berhasil!&quot;)\n//\t\n//\t//Mobile.tap(findTestObject(&apos;Object Repository/login/android.widget.Button - LOGIN&apos;), 0)\n//\tMobile.tap(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0)\n//\tMobile.tap(findTestObject(&apos;Object Repository/login/home&apos;), 0)\n//}else {\n//\tMobile.verifyElementExist(findTestObject(&apos;Object Repository/login/uname pass incorrect&apos;), 0)\n//\tprintln(&quot;Username atau password salah!&quot;)\n//\t\n}&apos; @ line 60, column 1.
+   }
+   ^
+
+1 error
+</property>
+</record>
+<record>
+  <date>2024-02-13T23:42:28.252984300Z</date>
+  <millis>1707867748252</millis>
+  <nanos>984300</nanos>
+  <sequence>16</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/login</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="remainingRetryCount">1</property>
+  <property name="currentRetryCount">2</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2024-02-13T23:42:28.259503700Z</date>
+  <millis>1707867748259</millis>
+  <nanos>503700</nanos>
+  <sequence>17</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/login</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">0</property>
+  <property name="name">Test Cases/login</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/login</property>
+  <property name="source">C:\Users\ASUS\Documents\Bismillah BFLP IT\BOOTCAMP IT\Katalon\katalon-finalmobile-clarissafatimah\Test Cases\login.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">3</property>
+</record>
+<record>
+  <date>2024-02-13T23:42:28.341336Z</date>
+  <millis>1707867748341</millis>
+  <nanos>336000</nanos>
+  <sequence>19</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/login has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script1280118708241100.groovy: 60: Unexpected input: &amp;apos;{\nprintln(&amp;quot;Login berhasil!&amp;quot;)\n\n//Mobile.tap(findTestObject(&amp;apos;Object Repository/login/android.widget.Button - LOGIN&amp;apos;), 0)\nMobile.tap(findTestObject(&amp;apos;Object Repository/login/loggin yes&amp;apos;), 0)\nMobile.tap(findTestObject(&amp;apos;Object Repository/login/home&amp;apos;), 0)\n}\n\n\n//\n//\n//if ((Mobile.verifyElementExist(findTestObject(&amp;apos;Object Repository/login/loggin yes&amp;apos;), 0) == true )) {\n//\tprintln(&amp;quot;Login berhasil!&amp;quot;)\n//\t\n//\t//Mobile.tap(findTestObject(&amp;apos;Object Repository/login/android.widget.Button - LOGIN&amp;apos;), 0)\n//\tMobile.tap(findTestObject(&amp;apos;Object Repository/login/loggin yes&amp;apos;), 0)\n//\tMobile.tap(findTestObject(&amp;apos;Object Repository/login/home&amp;apos;), 0)\n//}else {\n//\tMobile.verifyElementExist(findTestObject(&amp;apos;Object Repository/login/uname pass incorrect&amp;apos;), 0)\n//\tprintln(&amp;quot;Username atau password salah!&amp;quot;)\n//\t\n}&amp;apos; @ line 60, column 1.
+   }
+   ^
+
+1 error
+</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script1280118708241100.groovy: 60: Unexpected input: &apos;{\nprintln(&quot;Login berhasil!&quot;)\n\n//Mobile.tap(findTestObject(&apos;Object Repository/login/android.widget.Button - LOGIN&apos;), 0)\nMobile.tap(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0)\nMobile.tap(findTestObject(&apos;Object Repository/login/home&apos;), 0)\n}\n\n\n//\n//\n//if ((Mobile.verifyElementExist(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0) == true )) {\n//\tprintln(&quot;Login berhasil!&quot;)\n//\t\n//\t//Mobile.tap(findTestObject(&apos;Object Repository/login/android.widget.Button - LOGIN&apos;), 0)\n//\tMobile.tap(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0)\n//\tMobile.tap(findTestObject(&apos;Object Repository/login/home&apos;), 0)\n//}else {\n//\tMobile.verifyElementExist(findTestObject(&apos;Object Repository/login/uname pass incorrect&apos;), 0)\n//\tprintln(&quot;Username atau password salah!&quot;)\n//\t\n}&apos; @ line 60, column 1.
+   }
+   ^
+
+1 error
+
+	at org.apache.groovy.parser.antlr4.AstBuilder.collectSyntaxError(AstBuilder.java:4321)
+	at org.apache.groovy.parser.antlr4.AstBuilder.access$000(AstBuilder.java:176)
+	at org.apache.groovy.parser.antlr4.AstBuilder$1.syntaxError(AstBuilder.java:4332)
+	at groovyjarjarantlr4.v4.runtime.ProxyErrorListener.syntaxError(ProxyErrorListener.java:44)
+	at groovyjarjarantlr4.v4.runtime.Parser.notifyErrorListeners(Parser.java:543)
+	at groovyjarjarantlr4.v4.runtime.DefaultErrorStrategy.notifyErrorListeners(DefaultErrorStrategy.java:154)
+	at org.apache.groovy.parser.antlr4.internal.DescriptiveErrorStrategy.reportNoViableAlternative(DescriptiveErrorStrategy.java:92)
+	at groovyjarjarantlr4.v4.runtime.DefaultErrorStrategy.reportError(DefaultErrorStrategy.java:139)
+	at org.apache.groovy.parser.antlr4.GroovyParser.pathExpression(GroovyParser.java:9500)
+	at org.apache.groovy.parser.antlr4.GroovyParser.postfixExpression(GroovyParser.java:8108)
+	at org.apache.groovy.parser.antlr4.GroovyParser.expression(GroovyParser.java:8650)
+	at org.apache.groovy.parser.antlr4.GroovyParser.commandExpression(GroovyParser.java:9299)
+	at org.apache.groovy.parser.antlr4.GroovyParser.statementExpression(GroovyParser.java:8067)
+	at org.apache.groovy.parser.antlr4.GroovyParser.statement(GroovyParser.java:6915)
+	at org.apache.groovy.parser.antlr4.GroovyParser.ifElseStatement(GroovyParser.java:6055)
+	at org.apache.groovy.parser.antlr4.GroovyParser.conditionalStatement(GroovyParser.java:5954)
+	at org.apache.groovy.parser.antlr4.GroovyParser.statement(GroovyParser.java:6792)
+	at org.apache.groovy.parser.antlr4.GroovyParser.scriptStatement(GroovyParser.java:514)
+	at org.apache.groovy.parser.antlr4.GroovyParser.scriptStatements(GroovyParser.java:421)
+	at org.apache.groovy.parser.antlr4.GroovyParser.compilationUnit(GroovyParser.java:357)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:250)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:228)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildAST(AstBuilder.java:269)
+	at org.apache.groovy.parser.antlr4.Antlr4ParserPlugin.buildAST(Antlr4ParserPlugin.java:58)
+	at com.kms.katalon.core.main.TestCaseMethodNodeCollector.&lt;init&gt;(TestCaseMethodNodeCollector.java:43)
+	at com.kms.katalon.core.main.TestCaseExecutor.processScriptPreparationPhase(TestCaseExecutor.java:184)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:259)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707867741834.run(TempTestSuite1707867741834.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</property>
+  <property name="failed.exception.message">startup failed:
+Script1280118708241100.groovy: 60: Unexpected input: &apos;{\nprintln(&quot;Login berhasil!&quot;)\n\n//Mobile.tap(findTestObject(&apos;Object Repository/login/android.widget.Button - LOGIN&apos;), 0)\nMobile.tap(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0)\nMobile.tap(findTestObject(&apos;Object Repository/login/home&apos;), 0)\n}\n\n\n//\n//\n//if ((Mobile.verifyElementExist(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0) == true )) {\n//\tprintln(&quot;Login berhasil!&quot;)\n//\t\n//\t//Mobile.tap(findTestObject(&apos;Object Repository/login/android.widget.Button - LOGIN&apos;), 0)\n//\tMobile.tap(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0)\n//\tMobile.tap(findTestObject(&apos;Object Repository/login/home&apos;), 0)\n//}else {\n//\tMobile.verifyElementExist(findTestObject(&apos;Object Repository/login/uname pass incorrect&apos;), 0)\n//\tprintln(&quot;Username atau password salah!&quot;)\n//\t\n}&apos; @ line 60, column 1.
+   }
+   ^
+
+1 error
+</property>
+</record>
+<record>
+  <date>2024-02-13T23:42:28.350413700Z</date>
+  <millis>1707867748350</millis>
+  <nanos>413700</nanos>
+  <sequence>20</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/login</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="remainingRetryCount">0</property>
+  <property name="currentRetryCount">3</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2024-02-13T23:42:28.408113900Z</date>
+  <millis>1707867748408</millis>
+  <nanos>113900</nanos>
+  <sequence>21</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/login</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">3</property>
+  <property name="name">Test Cases/login</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/login</property>
+  <property name="source">C:\Users\ASUS\Documents\Bismillah BFLP IT\BOOTCAMP IT\Katalon\katalon-finalmobile-clarissafatimah\Test Cases\login.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">0</property>
+</record>
+<record>
+  <date>2024-02-13T23:42:28.493367500Z</date>
+  <millis>1707867748493</millis>
+  <nanos>367500</nanos>
+  <sequence>23</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/login has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script1280118857407000.groovy: 60: Unexpected input: &amp;apos;{\nprintln(&amp;quot;Login berhasil!&amp;quot;)\n\n//Mobile.tap(findTestObject(&amp;apos;Object Repository/login/android.widget.Button - LOGIN&amp;apos;), 0)\nMobile.tap(findTestObject(&amp;apos;Object Repository/login/loggin yes&amp;apos;), 0)\nMobile.tap(findTestObject(&amp;apos;Object Repository/login/home&amp;apos;), 0)\n}\n\n\n//\n//\n//if ((Mobile.verifyElementExist(findTestObject(&amp;apos;Object Repository/login/loggin yes&amp;apos;), 0) == true )) {\n//\tprintln(&amp;quot;Login berhasil!&amp;quot;)\n//\t\n//\t//Mobile.tap(findTestObject(&amp;apos;Object Repository/login/android.widget.Button - LOGIN&amp;apos;), 0)\n//\tMobile.tap(findTestObject(&amp;apos;Object Repository/login/loggin yes&amp;apos;), 0)\n//\tMobile.tap(findTestObject(&amp;apos;Object Repository/login/home&amp;apos;), 0)\n//}else {\n//\tMobile.verifyElementExist(findTestObject(&amp;apos;Object Repository/login/uname pass incorrect&amp;apos;), 0)\n//\tprintln(&amp;quot;Username atau password salah!&amp;quot;)\n//\t\n}&amp;apos; @ line 60, column 1.
+   }
+   ^
+
+1 error
+</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script1280118857407000.groovy: 60: Unexpected input: &apos;{\nprintln(&quot;Login berhasil!&quot;)\n\n//Mobile.tap(findTestObject(&apos;Object Repository/login/android.widget.Button - LOGIN&apos;), 0)\nMobile.tap(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0)\nMobile.tap(findTestObject(&apos;Object Repository/login/home&apos;), 0)\n}\n\n\n//\n//\n//if ((Mobile.verifyElementExist(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0) == true )) {\n//\tprintln(&quot;Login berhasil!&quot;)\n//\t\n//\t//Mobile.tap(findTestObject(&apos;Object Repository/login/android.widget.Button - LOGIN&apos;), 0)\n//\tMobile.tap(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0)\n//\tMobile.tap(findTestObject(&apos;Object Repository/login/home&apos;), 0)\n//}else {\n//\tMobile.verifyElementExist(findTestObject(&apos;Object Repository/login/uname pass incorrect&apos;), 0)\n//\tprintln(&quot;Username atau password salah!&quot;)\n//\t\n}&apos; @ line 60, column 1.
+   }
+   ^
+
+1 error
+
+	at org.apache.groovy.parser.antlr4.AstBuilder.collectSyntaxError(AstBuilder.java:4321)
+	at org.apache.groovy.parser.antlr4.AstBuilder.access$000(AstBuilder.java:176)
+	at org.apache.groovy.parser.antlr4.AstBuilder$1.syntaxError(AstBuilder.java:4332)
+	at groovyjarjarantlr4.v4.runtime.ProxyErrorListener.syntaxError(ProxyErrorListener.java:44)
+	at groovyjarjarantlr4.v4.runtime.Parser.notifyErrorListeners(Parser.java:543)
+	at groovyjarjarantlr4.v4.runtime.DefaultErrorStrategy.notifyErrorListeners(DefaultErrorStrategy.java:154)
+	at org.apache.groovy.parser.antlr4.internal.DescriptiveErrorStrategy.reportNoViableAlternative(DescriptiveErrorStrategy.java:92)
+	at groovyjarjarantlr4.v4.runtime.DefaultErrorStrategy.reportError(DefaultErrorStrategy.java:139)
+	at org.apache.groovy.parser.antlr4.GroovyParser.pathExpression(GroovyParser.java:9500)
+	at org.apache.groovy.parser.antlr4.GroovyParser.postfixExpression(GroovyParser.java:8108)
+	at org.apache.groovy.parser.antlr4.GroovyParser.expression(GroovyParser.java:8650)
+	at org.apache.groovy.parser.antlr4.GroovyParser.commandExpression(GroovyParser.java:9299)
+	at org.apache.groovy.parser.antlr4.GroovyParser.statementExpression(GroovyParser.java:8067)
+	at org.apache.groovy.parser.antlr4.GroovyParser.statement(GroovyParser.java:6915)
+	at org.apache.groovy.parser.antlr4.GroovyParser.ifElseStatement(GroovyParser.java:6055)
+	at org.apache.groovy.parser.antlr4.GroovyParser.conditionalStatement(GroovyParser.java:5954)
+	at org.apache.groovy.parser.antlr4.GroovyParser.statement(GroovyParser.java:6792)
+	at org.apache.groovy.parser.antlr4.GroovyParser.scriptStatement(GroovyParser.java:514)
+	at org.apache.groovy.parser.antlr4.GroovyParser.scriptStatements(GroovyParser.java:421)
+	at org.apache.groovy.parser.antlr4.GroovyParser.compilationUnit(GroovyParser.java:357)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:250)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:228)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildAST(AstBuilder.java:269)
+	at org.apache.groovy.parser.antlr4.Antlr4ParserPlugin.buildAST(Antlr4ParserPlugin.java:58)
+	at com.kms.katalon.core.main.TestCaseMethodNodeCollector.&lt;init&gt;(TestCaseMethodNodeCollector.java:43)
+	at com.kms.katalon.core.main.TestCaseExecutor.processScriptPreparationPhase(TestCaseExecutor.java:184)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:259)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707867741834.run(TempTestSuite1707867741834.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</property>
+  <property name="failed.exception.message">startup failed:
+Script1280118857407000.groovy: 60: Unexpected input: &apos;{\nprintln(&quot;Login berhasil!&quot;)\n\n//Mobile.tap(findTestObject(&apos;Object Repository/login/android.widget.Button - LOGIN&apos;), 0)\nMobile.tap(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0)\nMobile.tap(findTestObject(&apos;Object Repository/login/home&apos;), 0)\n}\n\n\n//\n//\n//if ((Mobile.verifyElementExist(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0) == true )) {\n//\tprintln(&quot;Login berhasil!&quot;)\n//\t\n//\t//Mobile.tap(findTestObject(&apos;Object Repository/login/android.widget.Button - LOGIN&apos;), 0)\n//\tMobile.tap(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0)\n//\tMobile.tap(findTestObject(&apos;Object Repository/login/home&apos;), 0)\n//}else {\n//\tMobile.verifyElementExist(findTestObject(&apos;Object Repository/login/uname pass incorrect&apos;), 0)\n//\tprintln(&quot;Username atau password salah!&quot;)\n//\t\n}&apos; @ line 60, column 1.
+   }
+   ^
+
+1 error
+</property>
+</record>
+<record>
+  <date>2024-02-13T23:42:28.501041800Z</date>
+  <millis>1707867748501</millis>
+  <nanos>41800</nanos>
+  <sequence>24</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/login</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="remainingRetryCount">3</property>
+  <property name="currentRetryCount">0</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2024-02-13T23:42:28.507039700Z</date>
+  <millis>1707867748507</millis>
+  <nanos>39700</nanos>
+  <sequence>25</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/login</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">2</property>
+  <property name="name">Test Cases/login</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/login</property>
+  <property name="source">C:\Users\ASUS\Documents\Bismillah BFLP IT\BOOTCAMP IT\Katalon\katalon-finalmobile-clarissafatimah\Test Cases\login.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">1</property>
+</record>
+<record>
+  <date>2024-02-13T23:42:28.587023900Z</date>
+  <millis>1707867748587</millis>
+  <nanos>23900</nanos>
+  <sequence>27</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/login has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script1280118956039700.groovy: 60: Unexpected input: &amp;apos;{\nprintln(&amp;quot;Login berhasil!&amp;quot;)\n\n//Mobile.tap(findTestObject(&amp;apos;Object Repository/login/android.widget.Button - LOGIN&amp;apos;), 0)\nMobile.tap(findTestObject(&amp;apos;Object Repository/login/loggin yes&amp;apos;), 0)\nMobile.tap(findTestObject(&amp;apos;Object Repository/login/home&amp;apos;), 0)\n}\n\n\n//\n//\n//if ((Mobile.verifyElementExist(findTestObject(&amp;apos;Object Repository/login/loggin yes&amp;apos;), 0) == true )) {\n//\tprintln(&amp;quot;Login berhasil!&amp;quot;)\n//\t\n//\t//Mobile.tap(findTestObject(&amp;apos;Object Repository/login/android.widget.Button - LOGIN&amp;apos;), 0)\n//\tMobile.tap(findTestObject(&amp;apos;Object Repository/login/loggin yes&amp;apos;), 0)\n//\tMobile.tap(findTestObject(&amp;apos;Object Repository/login/home&amp;apos;), 0)\n//}else {\n//\tMobile.verifyElementExist(findTestObject(&amp;apos;Object Repository/login/uname pass incorrect&amp;apos;), 0)\n//\tprintln(&amp;quot;Username atau password salah!&amp;quot;)\n//\t\n}&amp;apos; @ line 60, column 1.
+   }
+   ^
+
+1 error
+</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script1280118956039700.groovy: 60: Unexpected input: &apos;{\nprintln(&quot;Login berhasil!&quot;)\n\n//Mobile.tap(findTestObject(&apos;Object Repository/login/android.widget.Button - LOGIN&apos;), 0)\nMobile.tap(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0)\nMobile.tap(findTestObject(&apos;Object Repository/login/home&apos;), 0)\n}\n\n\n//\n//\n//if ((Mobile.verifyElementExist(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0) == true )) {\n//\tprintln(&quot;Login berhasil!&quot;)\n//\t\n//\t//Mobile.tap(findTestObject(&apos;Object Repository/login/android.widget.Button - LOGIN&apos;), 0)\n//\tMobile.tap(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0)\n//\tMobile.tap(findTestObject(&apos;Object Repository/login/home&apos;), 0)\n//}else {\n//\tMobile.verifyElementExist(findTestObject(&apos;Object Repository/login/uname pass incorrect&apos;), 0)\n//\tprintln(&quot;Username atau password salah!&quot;)\n//\t\n}&apos; @ line 60, column 1.
+   }
+   ^
+
+1 error
+
+	at org.apache.groovy.parser.antlr4.AstBuilder.collectSyntaxError(AstBuilder.java:4321)
+	at org.apache.groovy.parser.antlr4.AstBuilder.access$000(AstBuilder.java:176)
+	at org.apache.groovy.parser.antlr4.AstBuilder$1.syntaxError(AstBuilder.java:4332)
+	at groovyjarjarantlr4.v4.runtime.ProxyErrorListener.syntaxError(ProxyErrorListener.java:44)
+	at groovyjarjarantlr4.v4.runtime.Parser.notifyErrorListeners(Parser.java:543)
+	at groovyjarjarantlr4.v4.runtime.DefaultErrorStrategy.notifyErrorListeners(DefaultErrorStrategy.java:154)
+	at org.apache.groovy.parser.antlr4.internal.DescriptiveErrorStrategy.reportNoViableAlternative(DescriptiveErrorStrategy.java:92)
+	at groovyjarjarantlr4.v4.runtime.DefaultErrorStrategy.reportError(DefaultErrorStrategy.java:139)
+	at org.apache.groovy.parser.antlr4.GroovyParser.pathExpression(GroovyParser.java:9500)
+	at org.apache.groovy.parser.antlr4.GroovyParser.postfixExpression(GroovyParser.java:8108)
+	at org.apache.groovy.parser.antlr4.GroovyParser.expression(GroovyParser.java:8650)
+	at org.apache.groovy.parser.antlr4.GroovyParser.commandExpression(GroovyParser.java:9299)
+	at org.apache.groovy.parser.antlr4.GroovyParser.statementExpression(GroovyParser.java:8067)
+	at org.apache.groovy.parser.antlr4.GroovyParser.statement(GroovyParser.java:6915)
+	at org.apache.groovy.parser.antlr4.GroovyParser.ifElseStatement(GroovyParser.java:6055)
+	at org.apache.groovy.parser.antlr4.GroovyParser.conditionalStatement(GroovyParser.java:5954)
+	at org.apache.groovy.parser.antlr4.GroovyParser.statement(GroovyParser.java:6792)
+	at org.apache.groovy.parser.antlr4.GroovyParser.scriptStatement(GroovyParser.java:514)
+	at org.apache.groovy.parser.antlr4.GroovyParser.scriptStatements(GroovyParser.java:421)
+	at org.apache.groovy.parser.antlr4.GroovyParser.compilationUnit(GroovyParser.java:357)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:250)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:228)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildAST(AstBuilder.java:269)
+	at org.apache.groovy.parser.antlr4.Antlr4ParserPlugin.buildAST(Antlr4ParserPlugin.java:58)
+	at com.kms.katalon.core.main.TestCaseMethodNodeCollector.&lt;init&gt;(TestCaseMethodNodeCollector.java:43)
+	at com.kms.katalon.core.main.TestCaseExecutor.processScriptPreparationPhase(TestCaseExecutor.java:184)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:259)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707867741834.run(TempTestSuite1707867741834.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</property>
+  <property name="failed.exception.message">startup failed:
+Script1280118956039700.groovy: 60: Unexpected input: &apos;{\nprintln(&quot;Login berhasil!&quot;)\n\n//Mobile.tap(findTestObject(&apos;Object Repository/login/android.widget.Button - LOGIN&apos;), 0)\nMobile.tap(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0)\nMobile.tap(findTestObject(&apos;Object Repository/login/home&apos;), 0)\n}\n\n\n//\n//\n//if ((Mobile.verifyElementExist(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0) == true )) {\n//\tprintln(&quot;Login berhasil!&quot;)\n//\t\n//\t//Mobile.tap(findTestObject(&apos;Object Repository/login/android.widget.Button - LOGIN&apos;), 0)\n//\tMobile.tap(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0)\n//\tMobile.tap(findTestObject(&apos;Object Repository/login/home&apos;), 0)\n//}else {\n//\tMobile.verifyElementExist(findTestObject(&apos;Object Repository/login/uname pass incorrect&apos;), 0)\n//\tprintln(&quot;Username atau password salah!&quot;)\n//\t\n}&apos; @ line 60, column 1.
+   }
+   ^
+
+1 error
+</property>
+</record>
+<record>
+  <date>2024-02-13T23:42:28.592550200Z</date>
+  <millis>1707867748592</millis>
+  <nanos>550200</nanos>
+  <sequence>28</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/login</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="remainingRetryCount">2</property>
+  <property name="currentRetryCount">1</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2024-02-13T23:42:28.597072300Z</date>
+  <millis>1707867748597</millis>
+  <nanos>72300</nanos>
+  <sequence>29</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/login</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">1</property>
+  <property name="name">Test Cases/login</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/login</property>
+  <property name="source">C:\Users\ASUS\Documents\Bismillah BFLP IT\BOOTCAMP IT\Katalon\katalon-finalmobile-clarissafatimah\Test Cases\login.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">2</property>
+</record>
+<record>
+  <date>2024-02-13T23:42:28.708313700Z</date>
+  <millis>1707867748708</millis>
+  <nanos>313700</nanos>
+  <sequence>31</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/login has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script1280119047081800.groovy: 60: Unexpected input: &amp;apos;{\nprintln(&amp;quot;Login berhasil!&amp;quot;)\n\n//Mobile.tap(findTestObject(&amp;apos;Object Repository/login/android.widget.Button - LOGIN&amp;apos;), 0)\nMobile.tap(findTestObject(&amp;apos;Object Repository/login/loggin yes&amp;apos;), 0)\nMobile.tap(findTestObject(&amp;apos;Object Repository/login/home&amp;apos;), 0)\n}\n\n\n//\n//\n//if ((Mobile.verifyElementExist(findTestObject(&amp;apos;Object Repository/login/loggin yes&amp;apos;), 0) == true )) {\n//\tprintln(&amp;quot;Login berhasil!&amp;quot;)\n//\t\n//\t//Mobile.tap(findTestObject(&amp;apos;Object Repository/login/android.widget.Button - LOGIN&amp;apos;), 0)\n//\tMobile.tap(findTestObject(&amp;apos;Object Repository/login/loggin yes&amp;apos;), 0)\n//\tMobile.tap(findTestObject(&amp;apos;Object Repository/login/home&amp;apos;), 0)\n//}else {\n//\tMobile.verifyElementExist(findTestObject(&amp;apos;Object Repository/login/uname pass incorrect&amp;apos;), 0)\n//\tprintln(&amp;quot;Username atau password salah!&amp;quot;)\n//\t\n}&amp;apos; @ line 60, column 1.
+   }
+   ^
+
+1 error
+</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script1280119047081800.groovy: 60: Unexpected input: &apos;{\nprintln(&quot;Login berhasil!&quot;)\n\n//Mobile.tap(findTestObject(&apos;Object Repository/login/android.widget.Button - LOGIN&apos;), 0)\nMobile.tap(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0)\nMobile.tap(findTestObject(&apos;Object Repository/login/home&apos;), 0)\n}\n\n\n//\n//\n//if ((Mobile.verifyElementExist(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0) == true )) {\n//\tprintln(&quot;Login berhasil!&quot;)\n//\t\n//\t//Mobile.tap(findTestObject(&apos;Object Repository/login/android.widget.Button - LOGIN&apos;), 0)\n//\tMobile.tap(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0)\n//\tMobile.tap(findTestObject(&apos;Object Repository/login/home&apos;), 0)\n//}else {\n//\tMobile.verifyElementExist(findTestObject(&apos;Object Repository/login/uname pass incorrect&apos;), 0)\n//\tprintln(&quot;Username atau password salah!&quot;)\n//\t\n}&apos; @ line 60, column 1.
+   }
+   ^
+
+1 error
+
+	at org.apache.groovy.parser.antlr4.AstBuilder.collectSyntaxError(AstBuilder.java:4321)
+	at org.apache.groovy.parser.antlr4.AstBuilder.access$000(AstBuilder.java:176)
+	at org.apache.groovy.parser.antlr4.AstBuilder$1.syntaxError(AstBuilder.java:4332)
+	at groovyjarjarantlr4.v4.runtime.ProxyErrorListener.syntaxError(ProxyErrorListener.java:44)
+	at groovyjarjarantlr4.v4.runtime.Parser.notifyErrorListeners(Parser.java:543)
+	at groovyjarjarantlr4.v4.runtime.DefaultErrorStrategy.notifyErrorListeners(DefaultErrorStrategy.java:154)
+	at org.apache.groovy.parser.antlr4.internal.DescriptiveErrorStrategy.reportNoViableAlternative(DescriptiveErrorStrategy.java:92)
+	at groovyjarjarantlr4.v4.runtime.DefaultErrorStrategy.reportError(DefaultErrorStrategy.java:139)
+	at org.apache.groovy.parser.antlr4.GroovyParser.pathExpression(GroovyParser.java:9500)
+	at org.apache.groovy.parser.antlr4.GroovyParser.postfixExpression(GroovyParser.java:8108)
+	at org.apache.groovy.parser.antlr4.GroovyParser.expression(GroovyParser.java:8650)
+	at org.apache.groovy.parser.antlr4.GroovyParser.commandExpression(GroovyParser.java:9299)
+	at org.apache.groovy.parser.antlr4.GroovyParser.statementExpression(GroovyParser.java:8067)
+	at org.apache.groovy.parser.antlr4.GroovyParser.statement(GroovyParser.java:6915)
+	at org.apache.groovy.parser.antlr4.GroovyParser.ifElseStatement(GroovyParser.java:6055)
+	at org.apache.groovy.parser.antlr4.GroovyParser.conditionalStatement(GroovyParser.java:5954)
+	at org.apache.groovy.parser.antlr4.GroovyParser.statement(GroovyParser.java:6792)
+	at org.apache.groovy.parser.antlr4.GroovyParser.scriptStatement(GroovyParser.java:514)
+	at org.apache.groovy.parser.antlr4.GroovyParser.scriptStatements(GroovyParser.java:421)
+	at org.apache.groovy.parser.antlr4.GroovyParser.compilationUnit(GroovyParser.java:357)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:250)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:228)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildAST(AstBuilder.java:269)
+	at org.apache.groovy.parser.antlr4.Antlr4ParserPlugin.buildAST(Antlr4ParserPlugin.java:58)
+	at com.kms.katalon.core.main.TestCaseMethodNodeCollector.&lt;init&gt;(TestCaseMethodNodeCollector.java:43)
+	at com.kms.katalon.core.main.TestCaseExecutor.processScriptPreparationPhase(TestCaseExecutor.java:184)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:259)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707867741834.run(TempTestSuite1707867741834.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</property>
+  <property name="failed.exception.message">startup failed:
+Script1280119047081800.groovy: 60: Unexpected input: &apos;{\nprintln(&quot;Login berhasil!&quot;)\n\n//Mobile.tap(findTestObject(&apos;Object Repository/login/android.widget.Button - LOGIN&apos;), 0)\nMobile.tap(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0)\nMobile.tap(findTestObject(&apos;Object Repository/login/home&apos;), 0)\n}\n\n\n//\n//\n//if ((Mobile.verifyElementExist(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0) == true )) {\n//\tprintln(&quot;Login berhasil!&quot;)\n//\t\n//\t//Mobile.tap(findTestObject(&apos;Object Repository/login/android.widget.Button - LOGIN&apos;), 0)\n//\tMobile.tap(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0)\n//\tMobile.tap(findTestObject(&apos;Object Repository/login/home&apos;), 0)\n//}else {\n//\tMobile.verifyElementExist(findTestObject(&apos;Object Repository/login/uname pass incorrect&apos;), 0)\n//\tprintln(&quot;Username atau password salah!&quot;)\n//\t\n}&apos; @ line 60, column 1.
+   }
+   ^
+
+1 error
+</property>
+</record>
+<record>
+  <date>2024-02-13T23:42:28.711325400Z</date>
+  <millis>1707867748711</millis>
+  <nanos>325400</nanos>
+  <sequence>32</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/login</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="remainingRetryCount">1</property>
+  <property name="currentRetryCount">2</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2024-02-13T23:42:28.716841600Z</date>
+  <millis>1707867748716</millis>
+  <nanos>841600</nanos>
+  <sequence>33</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/login</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">0</property>
+  <property name="name">Test Cases/login</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/login</property>
+  <property name="source">C:\Users\ASUS\Documents\Bismillah BFLP IT\BOOTCAMP IT\Katalon\katalon-finalmobile-clarissafatimah\Test Cases\login.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">3</property>
+</record>
+<record>
+  <date>2024-02-13T23:42:28.783212100Z</date>
+  <millis>1707867748783</millis>
+  <nanos>212100</nanos>
+  <sequence>35</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/login has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script1280119165373700.groovy: 60: Unexpected input: &amp;apos;{\nprintln(&amp;quot;Login berhasil!&amp;quot;)\n\n//Mobile.tap(findTestObject(&amp;apos;Object Repository/login/android.widget.Button - LOGIN&amp;apos;), 0)\nMobile.tap(findTestObject(&amp;apos;Object Repository/login/loggin yes&amp;apos;), 0)\nMobile.tap(findTestObject(&amp;apos;Object Repository/login/home&amp;apos;), 0)\n}\n\n\n//\n//\n//if ((Mobile.verifyElementExist(findTestObject(&amp;apos;Object Repository/login/loggin yes&amp;apos;), 0) == true )) {\n//\tprintln(&amp;quot;Login berhasil!&amp;quot;)\n//\t\n//\t//Mobile.tap(findTestObject(&amp;apos;Object Repository/login/android.widget.Button - LOGIN&amp;apos;), 0)\n//\tMobile.tap(findTestObject(&amp;apos;Object Repository/login/loggin yes&amp;apos;), 0)\n//\tMobile.tap(findTestObject(&amp;apos;Object Repository/login/home&amp;apos;), 0)\n//}else {\n//\tMobile.verifyElementExist(findTestObject(&amp;apos;Object Repository/login/uname pass incorrect&amp;apos;), 0)\n//\tprintln(&amp;quot;Username atau password salah!&amp;quot;)\n//\t\n}&amp;apos; @ line 60, column 1.
+   }
+   ^
+
+1 error
+</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script1280119165373700.groovy: 60: Unexpected input: &apos;{\nprintln(&quot;Login berhasil!&quot;)\n\n//Mobile.tap(findTestObject(&apos;Object Repository/login/android.widget.Button - LOGIN&apos;), 0)\nMobile.tap(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0)\nMobile.tap(findTestObject(&apos;Object Repository/login/home&apos;), 0)\n}\n\n\n//\n//\n//if ((Mobile.verifyElementExist(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0) == true )) {\n//\tprintln(&quot;Login berhasil!&quot;)\n//\t\n//\t//Mobile.tap(findTestObject(&apos;Object Repository/login/android.widget.Button - LOGIN&apos;), 0)\n//\tMobile.tap(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0)\n//\tMobile.tap(findTestObject(&apos;Object Repository/login/home&apos;), 0)\n//}else {\n//\tMobile.verifyElementExist(findTestObject(&apos;Object Repository/login/uname pass incorrect&apos;), 0)\n//\tprintln(&quot;Username atau password salah!&quot;)\n//\t\n}&apos; @ line 60, column 1.
+   }
+   ^
+
+1 error
+
+	at org.apache.groovy.parser.antlr4.AstBuilder.collectSyntaxError(AstBuilder.java:4321)
+	at org.apache.groovy.parser.antlr4.AstBuilder.access$000(AstBuilder.java:176)
+	at org.apache.groovy.parser.antlr4.AstBuilder$1.syntaxError(AstBuilder.java:4332)
+	at groovyjarjarantlr4.v4.runtime.ProxyErrorListener.syntaxError(ProxyErrorListener.java:44)
+	at groovyjarjarantlr4.v4.runtime.Parser.notifyErrorListeners(Parser.java:543)
+	at groovyjarjarantlr4.v4.runtime.DefaultErrorStrategy.notifyErrorListeners(DefaultErrorStrategy.java:154)
+	at org.apache.groovy.parser.antlr4.internal.DescriptiveErrorStrategy.reportNoViableAlternative(DescriptiveErrorStrategy.java:92)
+	at groovyjarjarantlr4.v4.runtime.DefaultErrorStrategy.reportError(DefaultErrorStrategy.java:139)
+	at org.apache.groovy.parser.antlr4.GroovyParser.pathExpression(GroovyParser.java:9500)
+	at org.apache.groovy.parser.antlr4.GroovyParser.postfixExpression(GroovyParser.java:8108)
+	at org.apache.groovy.parser.antlr4.GroovyParser.expression(GroovyParser.java:8650)
+	at org.apache.groovy.parser.antlr4.GroovyParser.commandExpression(GroovyParser.java:9299)
+	at org.apache.groovy.parser.antlr4.GroovyParser.statementExpression(GroovyParser.java:8067)
+	at org.apache.groovy.parser.antlr4.GroovyParser.statement(GroovyParser.java:6915)
+	at org.apache.groovy.parser.antlr4.GroovyParser.ifElseStatement(GroovyParser.java:6055)
+	at org.apache.groovy.parser.antlr4.GroovyParser.conditionalStatement(GroovyParser.java:5954)
+	at org.apache.groovy.parser.antlr4.GroovyParser.statement(GroovyParser.java:6792)
+	at org.apache.groovy.parser.antlr4.GroovyParser.scriptStatement(GroovyParser.java:514)
+	at org.apache.groovy.parser.antlr4.GroovyParser.scriptStatements(GroovyParser.java:421)
+	at org.apache.groovy.parser.antlr4.GroovyParser.compilationUnit(GroovyParser.java:357)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:250)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:228)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildAST(AstBuilder.java:269)
+	at org.apache.groovy.parser.antlr4.Antlr4ParserPlugin.buildAST(Antlr4ParserPlugin.java:58)
+	at com.kms.katalon.core.main.TestCaseMethodNodeCollector.&lt;init&gt;(TestCaseMethodNodeCollector.java:43)
+	at com.kms.katalon.core.main.TestCaseExecutor.processScriptPreparationPhase(TestCaseExecutor.java:184)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:259)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707867741834.run(TempTestSuite1707867741834.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</property>
+  <property name="failed.exception.message">startup failed:
+Script1280119165373700.groovy: 60: Unexpected input: &apos;{\nprintln(&quot;Login berhasil!&quot;)\n\n//Mobile.tap(findTestObject(&apos;Object Repository/login/android.widget.Button - LOGIN&apos;), 0)\nMobile.tap(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0)\nMobile.tap(findTestObject(&apos;Object Repository/login/home&apos;), 0)\n}\n\n\n//\n//\n//if ((Mobile.verifyElementExist(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0) == true )) {\n//\tprintln(&quot;Login berhasil!&quot;)\n//\t\n//\t//Mobile.tap(findTestObject(&apos;Object Repository/login/android.widget.Button - LOGIN&apos;), 0)\n//\tMobile.tap(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0)\n//\tMobile.tap(findTestObject(&apos;Object Repository/login/home&apos;), 0)\n//}else {\n//\tMobile.verifyElementExist(findTestObject(&apos;Object Repository/login/uname pass incorrect&apos;), 0)\n//\tprintln(&quot;Username atau password salah!&quot;)\n//\t\n}&apos; @ line 60, column 1.
+   }
+   ^
+
+1 error
+</property>
+</record>
+<record>
+  <date>2024-02-13T23:42:28.788748600Z</date>
+  <millis>1707867748788</millis>
+  <nanos>748600</nanos>
+  <sequence>36</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/login</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="remainingRetryCount">0</property>
+  <property name="currentRetryCount">3</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2024-02-13T23:42:28.839542700Z</date>
+  <millis>1707867748839</millis>
+  <nanos>542700</nanos>
+  <sequence>37</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/login</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">3</property>
+  <property name="name">Test Cases/login</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/login</property>
+  <property name="source">C:\Users\ASUS\Documents\Bismillah BFLP IT\BOOTCAMP IT\Katalon\katalon-finalmobile-clarissafatimah\Test Cases\login.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">0</property>
+</record>
+<record>
+  <date>2024-02-13T23:42:28.885212900Z</date>
+  <millis>1707867748885</millis>
+  <nanos>212900</nanos>
+  <sequence>39</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/login has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script1280119287768500.groovy: 60: Unexpected input: &amp;apos;{\nprintln(&amp;quot;Login berhasil!&amp;quot;)\n\n//Mobile.tap(findTestObject(&amp;apos;Object Repository/login/android.widget.Button - LOGIN&amp;apos;), 0)\nMobile.tap(findTestObject(&amp;apos;Object Repository/login/loggin yes&amp;apos;), 0)\nMobile.tap(findTestObject(&amp;apos;Object Repository/login/home&amp;apos;), 0)\n}\n\n\n//\n//\n//if ((Mobile.verifyElementExist(findTestObject(&amp;apos;Object Repository/login/loggin yes&amp;apos;), 0) == true )) {\n//\tprintln(&amp;quot;Login berhasil!&amp;quot;)\n//\t\n//\t//Mobile.tap(findTestObject(&amp;apos;Object Repository/login/android.widget.Button - LOGIN&amp;apos;), 0)\n//\tMobile.tap(findTestObject(&amp;apos;Object Repository/login/loggin yes&amp;apos;), 0)\n//\tMobile.tap(findTestObject(&amp;apos;Object Repository/login/home&amp;apos;), 0)\n//}else {\n//\tMobile.verifyElementExist(findTestObject(&amp;apos;Object Repository/login/uname pass incorrect&amp;apos;), 0)\n//\tprintln(&amp;quot;Username atau password salah!&amp;quot;)\n//\t\n}&amp;apos; @ line 60, column 1.
+   }
+   ^
+
+1 error
+</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script1280119287768500.groovy: 60: Unexpected input: &apos;{\nprintln(&quot;Login berhasil!&quot;)\n\n//Mobile.tap(findTestObject(&apos;Object Repository/login/android.widget.Button - LOGIN&apos;), 0)\nMobile.tap(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0)\nMobile.tap(findTestObject(&apos;Object Repository/login/home&apos;), 0)\n}\n\n\n//\n//\n//if ((Mobile.verifyElementExist(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0) == true )) {\n//\tprintln(&quot;Login berhasil!&quot;)\n//\t\n//\t//Mobile.tap(findTestObject(&apos;Object Repository/login/android.widget.Button - LOGIN&apos;), 0)\n//\tMobile.tap(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0)\n//\tMobile.tap(findTestObject(&apos;Object Repository/login/home&apos;), 0)\n//}else {\n//\tMobile.verifyElementExist(findTestObject(&apos;Object Repository/login/uname pass incorrect&apos;), 0)\n//\tprintln(&quot;Username atau password salah!&quot;)\n//\t\n}&apos; @ line 60, column 1.
+   }
+   ^
+
+1 error
+
+	at org.apache.groovy.parser.antlr4.AstBuilder.collectSyntaxError(AstBuilder.java:4321)
+	at org.apache.groovy.parser.antlr4.AstBuilder.access$000(AstBuilder.java:176)
+	at org.apache.groovy.parser.antlr4.AstBuilder$1.syntaxError(AstBuilder.java:4332)
+	at groovyjarjarantlr4.v4.runtime.ProxyErrorListener.syntaxError(ProxyErrorListener.java:44)
+	at groovyjarjarantlr4.v4.runtime.Parser.notifyErrorListeners(Parser.java:543)
+	at groovyjarjarantlr4.v4.runtime.DefaultErrorStrategy.notifyErrorListeners(DefaultErrorStrategy.java:154)
+	at org.apache.groovy.parser.antlr4.internal.DescriptiveErrorStrategy.reportNoViableAlternative(DescriptiveErrorStrategy.java:92)
+	at groovyjarjarantlr4.v4.runtime.DefaultErrorStrategy.reportError(DefaultErrorStrategy.java:139)
+	at org.apache.groovy.parser.antlr4.GroovyParser.pathExpression(GroovyParser.java:9500)
+	at org.apache.groovy.parser.antlr4.GroovyParser.postfixExpression(GroovyParser.java:8108)
+	at org.apache.groovy.parser.antlr4.GroovyParser.expression(GroovyParser.java:8650)
+	at org.apache.groovy.parser.antlr4.GroovyParser.commandExpression(GroovyParser.java:9299)
+	at org.apache.groovy.parser.antlr4.GroovyParser.statementExpression(GroovyParser.java:8067)
+	at org.apache.groovy.parser.antlr4.GroovyParser.statement(GroovyParser.java:6915)
+	at org.apache.groovy.parser.antlr4.GroovyParser.ifElseStatement(GroovyParser.java:6055)
+	at org.apache.groovy.parser.antlr4.GroovyParser.conditionalStatement(GroovyParser.java:5954)
+	at org.apache.groovy.parser.antlr4.GroovyParser.statement(GroovyParser.java:6792)
+	at org.apache.groovy.parser.antlr4.GroovyParser.scriptStatement(GroovyParser.java:514)
+	at org.apache.groovy.parser.antlr4.GroovyParser.scriptStatements(GroovyParser.java:421)
+	at org.apache.groovy.parser.antlr4.GroovyParser.compilationUnit(GroovyParser.java:357)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:250)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:228)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildAST(AstBuilder.java:269)
+	at org.apache.groovy.parser.antlr4.Antlr4ParserPlugin.buildAST(Antlr4ParserPlugin.java:58)
+	at com.kms.katalon.core.main.TestCaseMethodNodeCollector.&lt;init&gt;(TestCaseMethodNodeCollector.java:43)
+	at com.kms.katalon.core.main.TestCaseExecutor.processScriptPreparationPhase(TestCaseExecutor.java:184)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:259)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707867741834.run(TempTestSuite1707867741834.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</property>
+  <property name="failed.exception.message">startup failed:
+Script1280119287768500.groovy: 60: Unexpected input: &apos;{\nprintln(&quot;Login berhasil!&quot;)\n\n//Mobile.tap(findTestObject(&apos;Object Repository/login/android.widget.Button - LOGIN&apos;), 0)\nMobile.tap(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0)\nMobile.tap(findTestObject(&apos;Object Repository/login/home&apos;), 0)\n}\n\n\n//\n//\n//if ((Mobile.verifyElementExist(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0) == true )) {\n//\tprintln(&quot;Login berhasil!&quot;)\n//\t\n//\t//Mobile.tap(findTestObject(&apos;Object Repository/login/android.widget.Button - LOGIN&apos;), 0)\n//\tMobile.tap(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0)\n//\tMobile.tap(findTestObject(&apos;Object Repository/login/home&apos;), 0)\n//}else {\n//\tMobile.verifyElementExist(findTestObject(&apos;Object Repository/login/uname pass incorrect&apos;), 0)\n//\tprintln(&quot;Username atau password salah!&quot;)\n//\t\n}&apos; @ line 60, column 1.
+   }
+   ^
+
+1 error
+</property>
+</record>
+<record>
+  <date>2024-02-13T23:42:28.889741800Z</date>
+  <millis>1707867748889</millis>
+  <nanos>741800</nanos>
+  <sequence>40</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/login</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="remainingRetryCount">3</property>
+  <property name="currentRetryCount">0</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2024-02-13T23:42:28.893739400Z</date>
+  <millis>1707867748893</millis>
+  <nanos>739400</nanos>
+  <sequence>41</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/login</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">2</property>
+  <property name="name">Test Cases/login</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/login</property>
+  <property name="source">C:\Users\ASUS\Documents\Bismillah BFLP IT\BOOTCAMP IT\Katalon\katalon-finalmobile-clarissafatimah\Test Cases\login.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">1</property>
+</record>
+<record>
+  <date>2024-02-13T23:42:28.939769800Z</date>
+  <millis>1707867748939</millis>
+  <nanos>769800</nanos>
+  <sequence>43</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/login has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script1280119341711800.groovy: 60: Unexpected input: &amp;apos;{\nprintln(&amp;quot;Login berhasil!&amp;quot;)\n\n//Mobile.tap(findTestObject(&amp;apos;Object Repository/login/android.widget.Button - LOGIN&amp;apos;), 0)\nMobile.tap(findTestObject(&amp;apos;Object Repository/login/loggin yes&amp;apos;), 0)\nMobile.tap(findTestObject(&amp;apos;Object Repository/login/home&amp;apos;), 0)\n}\n\n\n//\n//\n//if ((Mobile.verifyElementExist(findTestObject(&amp;apos;Object Repository/login/loggin yes&amp;apos;), 0) == true )) {\n//\tprintln(&amp;quot;Login berhasil!&amp;quot;)\n//\t\n//\t//Mobile.tap(findTestObject(&amp;apos;Object Repository/login/android.widget.Button - LOGIN&amp;apos;), 0)\n//\tMobile.tap(findTestObject(&amp;apos;Object Repository/login/loggin yes&amp;apos;), 0)\n//\tMobile.tap(findTestObject(&amp;apos;Object Repository/login/home&amp;apos;), 0)\n//}else {\n//\tMobile.verifyElementExist(findTestObject(&amp;apos;Object Repository/login/uname pass incorrect&amp;apos;), 0)\n//\tprintln(&amp;quot;Username atau password salah!&amp;quot;)\n//\t\n}&amp;apos; @ line 60, column 1.
+   }
+   ^
+
+1 error
+</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script1280119341711800.groovy: 60: Unexpected input: &apos;{\nprintln(&quot;Login berhasil!&quot;)\n\n//Mobile.tap(findTestObject(&apos;Object Repository/login/android.widget.Button - LOGIN&apos;), 0)\nMobile.tap(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0)\nMobile.tap(findTestObject(&apos;Object Repository/login/home&apos;), 0)\n}\n\n\n//\n//\n//if ((Mobile.verifyElementExist(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0) == true )) {\n//\tprintln(&quot;Login berhasil!&quot;)\n//\t\n//\t//Mobile.tap(findTestObject(&apos;Object Repository/login/android.widget.Button - LOGIN&apos;), 0)\n//\tMobile.tap(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0)\n//\tMobile.tap(findTestObject(&apos;Object Repository/login/home&apos;), 0)\n//}else {\n//\tMobile.verifyElementExist(findTestObject(&apos;Object Repository/login/uname pass incorrect&apos;), 0)\n//\tprintln(&quot;Username atau password salah!&quot;)\n//\t\n}&apos; @ line 60, column 1.
+   }
+   ^
+
+1 error
+
+	at org.apache.groovy.parser.antlr4.AstBuilder.collectSyntaxError(AstBuilder.java:4321)
+	at org.apache.groovy.parser.antlr4.AstBuilder.access$000(AstBuilder.java:176)
+	at org.apache.groovy.parser.antlr4.AstBuilder$1.syntaxError(AstBuilder.java:4332)
+	at groovyjarjarantlr4.v4.runtime.ProxyErrorListener.syntaxError(ProxyErrorListener.java:44)
+	at groovyjarjarantlr4.v4.runtime.Parser.notifyErrorListeners(Parser.java:543)
+	at groovyjarjarantlr4.v4.runtime.DefaultErrorStrategy.notifyErrorListeners(DefaultErrorStrategy.java:154)
+	at org.apache.groovy.parser.antlr4.internal.DescriptiveErrorStrategy.reportNoViableAlternative(DescriptiveErrorStrategy.java:92)
+	at groovyjarjarantlr4.v4.runtime.DefaultErrorStrategy.reportError(DefaultErrorStrategy.java:139)
+	at org.apache.groovy.parser.antlr4.GroovyParser.pathExpression(GroovyParser.java:9500)
+	at org.apache.groovy.parser.antlr4.GroovyParser.postfixExpression(GroovyParser.java:8108)
+	at org.apache.groovy.parser.antlr4.GroovyParser.expression(GroovyParser.java:8650)
+	at org.apache.groovy.parser.antlr4.GroovyParser.commandExpression(GroovyParser.java:9299)
+	at org.apache.groovy.parser.antlr4.GroovyParser.statementExpression(GroovyParser.java:8067)
+	at org.apache.groovy.parser.antlr4.GroovyParser.statement(GroovyParser.java:6915)
+	at org.apache.groovy.parser.antlr4.GroovyParser.ifElseStatement(GroovyParser.java:6055)
+	at org.apache.groovy.parser.antlr4.GroovyParser.conditionalStatement(GroovyParser.java:5954)
+	at org.apache.groovy.parser.antlr4.GroovyParser.statement(GroovyParser.java:6792)
+	at org.apache.groovy.parser.antlr4.GroovyParser.scriptStatement(GroovyParser.java:514)
+	at org.apache.groovy.parser.antlr4.GroovyParser.scriptStatements(GroovyParser.java:421)
+	at org.apache.groovy.parser.antlr4.GroovyParser.compilationUnit(GroovyParser.java:357)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:250)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:228)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildAST(AstBuilder.java:269)
+	at org.apache.groovy.parser.antlr4.Antlr4ParserPlugin.buildAST(Antlr4ParserPlugin.java:58)
+	at com.kms.katalon.core.main.TestCaseMethodNodeCollector.&lt;init&gt;(TestCaseMethodNodeCollector.java:43)
+	at com.kms.katalon.core.main.TestCaseExecutor.processScriptPreparationPhase(TestCaseExecutor.java:184)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:259)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707867741834.run(TempTestSuite1707867741834.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</property>
+  <property name="failed.exception.message">startup failed:
+Script1280119341711800.groovy: 60: Unexpected input: &apos;{\nprintln(&quot;Login berhasil!&quot;)\n\n//Mobile.tap(findTestObject(&apos;Object Repository/login/android.widget.Button - LOGIN&apos;), 0)\nMobile.tap(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0)\nMobile.tap(findTestObject(&apos;Object Repository/login/home&apos;), 0)\n}\n\n\n//\n//\n//if ((Mobile.verifyElementExist(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0) == true )) {\n//\tprintln(&quot;Login berhasil!&quot;)\n//\t\n//\t//Mobile.tap(findTestObject(&apos;Object Repository/login/android.widget.Button - LOGIN&apos;), 0)\n//\tMobile.tap(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0)\n//\tMobile.tap(findTestObject(&apos;Object Repository/login/home&apos;), 0)\n//}else {\n//\tMobile.verifyElementExist(findTestObject(&apos;Object Repository/login/uname pass incorrect&apos;), 0)\n//\tprintln(&quot;Username atau password salah!&quot;)\n//\t\n}&apos; @ line 60, column 1.
+   }
+   ^
+
+1 error
+</property>
+</record>
+<record>
+  <date>2024-02-13T23:42:28.944781600Z</date>
+  <millis>1707867748944</millis>
+  <nanos>781600</nanos>
+  <sequence>44</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/login</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="remainingRetryCount">2</property>
+  <property name="currentRetryCount">1</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2024-02-13T23:42:28.950829500Z</date>
+  <millis>1707867748950</millis>
+  <nanos>829500</nanos>
+  <sequence>45</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/login</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">1</property>
+  <property name="name">Test Cases/login</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/login</property>
+  <property name="source">C:\Users\ASUS\Documents\Bismillah BFLP IT\BOOTCAMP IT\Katalon\katalon-finalmobile-clarissafatimah\Test Cases\login.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">2</property>
+</record>
+<record>
+  <date>2024-02-13T23:42:29.006640600Z</date>
+  <millis>1707867749006</millis>
+  <nanos>640600</nanos>
+  <sequence>47</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/login has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script1280119398955600.groovy: 60: Unexpected input: &amp;apos;{\nprintln(&amp;quot;Login berhasil!&amp;quot;)\n\n//Mobile.tap(findTestObject(&amp;apos;Object Repository/login/android.widget.Button - LOGIN&amp;apos;), 0)\nMobile.tap(findTestObject(&amp;apos;Object Repository/login/loggin yes&amp;apos;), 0)\nMobile.tap(findTestObject(&amp;apos;Object Repository/login/home&amp;apos;), 0)\n}\n\n\n//\n//\n//if ((Mobile.verifyElementExist(findTestObject(&amp;apos;Object Repository/login/loggin yes&amp;apos;), 0) == true )) {\n//\tprintln(&amp;quot;Login berhasil!&amp;quot;)\n//\t\n//\t//Mobile.tap(findTestObject(&amp;apos;Object Repository/login/android.widget.Button - LOGIN&amp;apos;), 0)\n//\tMobile.tap(findTestObject(&amp;apos;Object Repository/login/loggin yes&amp;apos;), 0)\n//\tMobile.tap(findTestObject(&amp;apos;Object Repository/login/home&amp;apos;), 0)\n//}else {\n//\tMobile.verifyElementExist(findTestObject(&amp;apos;Object Repository/login/uname pass incorrect&amp;apos;), 0)\n//\tprintln(&amp;quot;Username atau password salah!&amp;quot;)\n//\t\n}&amp;apos; @ line 60, column 1.
+   }
+   ^
+
+1 error
+</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script1280119398955600.groovy: 60: Unexpected input: &apos;{\nprintln(&quot;Login berhasil!&quot;)\n\n//Mobile.tap(findTestObject(&apos;Object Repository/login/android.widget.Button - LOGIN&apos;), 0)\nMobile.tap(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0)\nMobile.tap(findTestObject(&apos;Object Repository/login/home&apos;), 0)\n}\n\n\n//\n//\n//if ((Mobile.verifyElementExist(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0) == true )) {\n//\tprintln(&quot;Login berhasil!&quot;)\n//\t\n//\t//Mobile.tap(findTestObject(&apos;Object Repository/login/android.widget.Button - LOGIN&apos;), 0)\n//\tMobile.tap(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0)\n//\tMobile.tap(findTestObject(&apos;Object Repository/login/home&apos;), 0)\n//}else {\n//\tMobile.verifyElementExist(findTestObject(&apos;Object Repository/login/uname pass incorrect&apos;), 0)\n//\tprintln(&quot;Username atau password salah!&quot;)\n//\t\n}&apos; @ line 60, column 1.
+   }
+   ^
+
+1 error
+
+	at org.apache.groovy.parser.antlr4.AstBuilder.collectSyntaxError(AstBuilder.java:4321)
+	at org.apache.groovy.parser.antlr4.AstBuilder.access$000(AstBuilder.java:176)
+	at org.apache.groovy.parser.antlr4.AstBuilder$1.syntaxError(AstBuilder.java:4332)
+	at groovyjarjarantlr4.v4.runtime.ProxyErrorListener.syntaxError(ProxyErrorListener.java:44)
+	at groovyjarjarantlr4.v4.runtime.Parser.notifyErrorListeners(Parser.java:543)
+	at groovyjarjarantlr4.v4.runtime.DefaultErrorStrategy.notifyErrorListeners(DefaultErrorStrategy.java:154)
+	at org.apache.groovy.parser.antlr4.internal.DescriptiveErrorStrategy.reportNoViableAlternative(DescriptiveErrorStrategy.java:92)
+	at groovyjarjarantlr4.v4.runtime.DefaultErrorStrategy.reportError(DefaultErrorStrategy.java:139)
+	at org.apache.groovy.parser.antlr4.GroovyParser.pathExpression(GroovyParser.java:9500)
+	at org.apache.groovy.parser.antlr4.GroovyParser.postfixExpression(GroovyParser.java:8108)
+	at org.apache.groovy.parser.antlr4.GroovyParser.expression(GroovyParser.java:8650)
+	at org.apache.groovy.parser.antlr4.GroovyParser.commandExpression(GroovyParser.java:9299)
+	at org.apache.groovy.parser.antlr4.GroovyParser.statementExpression(GroovyParser.java:8067)
+	at org.apache.groovy.parser.antlr4.GroovyParser.statement(GroovyParser.java:6915)
+	at org.apache.groovy.parser.antlr4.GroovyParser.ifElseStatement(GroovyParser.java:6055)
+	at org.apache.groovy.parser.antlr4.GroovyParser.conditionalStatement(GroovyParser.java:5954)
+	at org.apache.groovy.parser.antlr4.GroovyParser.statement(GroovyParser.java:6792)
+	at org.apache.groovy.parser.antlr4.GroovyParser.scriptStatement(GroovyParser.java:514)
+	at org.apache.groovy.parser.antlr4.GroovyParser.scriptStatements(GroovyParser.java:421)
+	at org.apache.groovy.parser.antlr4.GroovyParser.compilationUnit(GroovyParser.java:357)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:250)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:228)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildAST(AstBuilder.java:269)
+	at org.apache.groovy.parser.antlr4.Antlr4ParserPlugin.buildAST(Antlr4ParserPlugin.java:58)
+	at com.kms.katalon.core.main.TestCaseMethodNodeCollector.&lt;init&gt;(TestCaseMethodNodeCollector.java:43)
+	at com.kms.katalon.core.main.TestCaseExecutor.processScriptPreparationPhase(TestCaseExecutor.java:184)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:259)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707867741834.run(TempTestSuite1707867741834.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</property>
+  <property name="failed.exception.message">startup failed:
+Script1280119398955600.groovy: 60: Unexpected input: &apos;{\nprintln(&quot;Login berhasil!&quot;)\n\n//Mobile.tap(findTestObject(&apos;Object Repository/login/android.widget.Button - LOGIN&apos;), 0)\nMobile.tap(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0)\nMobile.tap(findTestObject(&apos;Object Repository/login/home&apos;), 0)\n}\n\n\n//\n//\n//if ((Mobile.verifyElementExist(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0) == true )) {\n//\tprintln(&quot;Login berhasil!&quot;)\n//\t\n//\t//Mobile.tap(findTestObject(&apos;Object Repository/login/android.widget.Button - LOGIN&apos;), 0)\n//\tMobile.tap(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0)\n//\tMobile.tap(findTestObject(&apos;Object Repository/login/home&apos;), 0)\n//}else {\n//\tMobile.verifyElementExist(findTestObject(&apos;Object Repository/login/uname pass incorrect&apos;), 0)\n//\tprintln(&quot;Username atau password salah!&quot;)\n//\t\n}&apos; @ line 60, column 1.
+   }
+   ^
+
+1 error
+</property>
+</record>
+<record>
+  <date>2024-02-13T23:42:29.011161400Z</date>
+  <millis>1707867749011</millis>
+  <nanos>161400</nanos>
+  <sequence>48</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/login</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="remainingRetryCount">1</property>
+  <property name="currentRetryCount">2</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2024-02-13T23:42:29.017790400Z</date>
+  <millis>1707867749017</millis>
+  <nanos>790400</nanos>
+  <sequence>49</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/login</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">0</property>
+  <property name="name">Test Cases/login</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/login</property>
+  <property name="source">C:\Users\ASUS\Documents\Bismillah BFLP IT\BOOTCAMP IT\Katalon\katalon-finalmobile-clarissafatimah\Test Cases\login.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">3</property>
+</record>
+<record>
+  <date>2024-02-13T23:42:29.074055Z</date>
+  <millis>1707867749074</millis>
+  <nanos>55000</nanos>
+  <sequence>51</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/login has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script1280119465821400.groovy: 60: Unexpected input: &amp;apos;{\nprintln(&amp;quot;Login berhasil!&amp;quot;)\n\n//Mobile.tap(findTestObject(&amp;apos;Object Repository/login/android.widget.Button - LOGIN&amp;apos;), 0)\nMobile.tap(findTestObject(&amp;apos;Object Repository/login/loggin yes&amp;apos;), 0)\nMobile.tap(findTestObject(&amp;apos;Object Repository/login/home&amp;apos;), 0)\n}\n\n\n//\n//\n//if ((Mobile.verifyElementExist(findTestObject(&amp;apos;Object Repository/login/loggin yes&amp;apos;), 0) == true )) {\n//\tprintln(&amp;quot;Login berhasil!&amp;quot;)\n//\t\n//\t//Mobile.tap(findTestObject(&amp;apos;Object Repository/login/android.widget.Button - LOGIN&amp;apos;), 0)\n//\tMobile.tap(findTestObject(&amp;apos;Object Repository/login/loggin yes&amp;apos;), 0)\n//\tMobile.tap(findTestObject(&amp;apos;Object Repository/login/home&amp;apos;), 0)\n//}else {\n//\tMobile.verifyElementExist(findTestObject(&amp;apos;Object Repository/login/uname pass incorrect&amp;apos;), 0)\n//\tprintln(&amp;quot;Username atau password salah!&amp;quot;)\n//\t\n}&amp;apos; @ line 60, column 1.
+   }
+   ^
+
+1 error
+</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script1280119465821400.groovy: 60: Unexpected input: &apos;{\nprintln(&quot;Login berhasil!&quot;)\n\n//Mobile.tap(findTestObject(&apos;Object Repository/login/android.widget.Button - LOGIN&apos;), 0)\nMobile.tap(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0)\nMobile.tap(findTestObject(&apos;Object Repository/login/home&apos;), 0)\n}\n\n\n//\n//\n//if ((Mobile.verifyElementExist(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0) == true )) {\n//\tprintln(&quot;Login berhasil!&quot;)\n//\t\n//\t//Mobile.tap(findTestObject(&apos;Object Repository/login/android.widget.Button - LOGIN&apos;), 0)\n//\tMobile.tap(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0)\n//\tMobile.tap(findTestObject(&apos;Object Repository/login/home&apos;), 0)\n//}else {\n//\tMobile.verifyElementExist(findTestObject(&apos;Object Repository/login/uname pass incorrect&apos;), 0)\n//\tprintln(&quot;Username atau password salah!&quot;)\n//\t\n}&apos; @ line 60, column 1.
+   }
+   ^
+
+1 error
+
+	at org.apache.groovy.parser.antlr4.AstBuilder.collectSyntaxError(AstBuilder.java:4321)
+	at org.apache.groovy.parser.antlr4.AstBuilder.access$000(AstBuilder.java:176)
+	at org.apache.groovy.parser.antlr4.AstBuilder$1.syntaxError(AstBuilder.java:4332)
+	at groovyjarjarantlr4.v4.runtime.ProxyErrorListener.syntaxError(ProxyErrorListener.java:44)
+	at groovyjarjarantlr4.v4.runtime.Parser.notifyErrorListeners(Parser.java:543)
+	at groovyjarjarantlr4.v4.runtime.DefaultErrorStrategy.notifyErrorListeners(DefaultErrorStrategy.java:154)
+	at org.apache.groovy.parser.antlr4.internal.DescriptiveErrorStrategy.reportNoViableAlternative(DescriptiveErrorStrategy.java:92)
+	at groovyjarjarantlr4.v4.runtime.DefaultErrorStrategy.reportError(DefaultErrorStrategy.java:139)
+	at org.apache.groovy.parser.antlr4.GroovyParser.pathExpression(GroovyParser.java:9500)
+	at org.apache.groovy.parser.antlr4.GroovyParser.postfixExpression(GroovyParser.java:8108)
+	at org.apache.groovy.parser.antlr4.GroovyParser.expression(GroovyParser.java:8650)
+	at org.apache.groovy.parser.antlr4.GroovyParser.commandExpression(GroovyParser.java:9299)
+	at org.apache.groovy.parser.antlr4.GroovyParser.statementExpression(GroovyParser.java:8067)
+	at org.apache.groovy.parser.antlr4.GroovyParser.statement(GroovyParser.java:6915)
+	at org.apache.groovy.parser.antlr4.GroovyParser.ifElseStatement(GroovyParser.java:6055)
+	at org.apache.groovy.parser.antlr4.GroovyParser.conditionalStatement(GroovyParser.java:5954)
+	at org.apache.groovy.parser.antlr4.GroovyParser.statement(GroovyParser.java:6792)
+	at org.apache.groovy.parser.antlr4.GroovyParser.scriptStatement(GroovyParser.java:514)
+	at org.apache.groovy.parser.antlr4.GroovyParser.scriptStatements(GroovyParser.java:421)
+	at org.apache.groovy.parser.antlr4.GroovyParser.compilationUnit(GroovyParser.java:357)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:250)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:228)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildAST(AstBuilder.java:269)
+	at org.apache.groovy.parser.antlr4.Antlr4ParserPlugin.buildAST(Antlr4ParserPlugin.java:58)
+	at com.kms.katalon.core.main.TestCaseMethodNodeCollector.&lt;init&gt;(TestCaseMethodNodeCollector.java:43)
+	at com.kms.katalon.core.main.TestCaseExecutor.processScriptPreparationPhase(TestCaseExecutor.java:184)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:259)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707867741834.run(TempTestSuite1707867741834.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</property>
+  <property name="failed.exception.message">startup failed:
+Script1280119465821400.groovy: 60: Unexpected input: &apos;{\nprintln(&quot;Login berhasil!&quot;)\n\n//Mobile.tap(findTestObject(&apos;Object Repository/login/android.widget.Button - LOGIN&apos;), 0)\nMobile.tap(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0)\nMobile.tap(findTestObject(&apos;Object Repository/login/home&apos;), 0)\n}\n\n\n//\n//\n//if ((Mobile.verifyElementExist(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0) == true )) {\n//\tprintln(&quot;Login berhasil!&quot;)\n//\t\n//\t//Mobile.tap(findTestObject(&apos;Object Repository/login/android.widget.Button - LOGIN&apos;), 0)\n//\tMobile.tap(findTestObject(&apos;Object Repository/login/loggin yes&apos;), 0)\n//\tMobile.tap(findTestObject(&apos;Object Repository/login/home&apos;), 0)\n//}else {\n//\tMobile.verifyElementExist(findTestObject(&apos;Object Repository/login/uname pass incorrect&apos;), 0)\n//\tprintln(&quot;Username atau password salah!&quot;)\n//\t\n}&apos; @ line 60, column 1.
+   }
+   ^
+
+1 error
+</property>
+</record>
+<record>
+  <date>2024-02-13T23:42:29.078052500Z</date>
+  <millis>1707867749078</millis>
+  <nanos>52500</nanos>
+  <sequence>52</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/login</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="remainingRetryCount">0</property>
+  <property name="currentRetryCount">3</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2024-02-13T23:42:29.079823300Z</date>
+  <millis>1707867749079</millis>
+  <nanos>823300</nanos>
+  <sequence>53</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-13T23:42:29.642244100Z</date>
+  <millis>1707867749642</millis>
+  <nanos>244100</nanos>
+  <sequence>139</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating HTML report folder at: C:\Users\ASUS\Documents\Bismillah BFLP IT\BOOTCAMP IT\Katalon\katalon-finalmobile-clarissafatimah\Reports\20240214_064221\login\20240214_064221...</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-13T23:42:30.184355800Z</date>
+  <millis>1707867750184</millis>
+  <nanos>355800</nanos>
+  <sequence>140</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HTML report generated</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-13T23:42:30.185355300Z</date>
+  <millis>1707867750185</millis>
+  <nanos>355300</nanos>
+  <sequence>141</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating CSV report folder at: C:\Users\ASUS\Documents\Bismillah BFLP IT\BOOTCAMP IT\Katalon\katalon-finalmobile-clarissafatimah\Reports\20240214_064221\login\20240214_064221...</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-13T23:42:30.235565Z</date>
+  <millis>1707867750235</millis>
+  <nanos>565000</nanos>
+  <sequence>142</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CSV report generated</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-13T23:42:30.242056500Z</date>
+  <millis>1707867750242</millis>
+  <nanos>56500</nanos>
+  <sequence>144</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-13T23:42:30.308359800Z</date>
+  <millis>1707867750308</millis>
+  <nanos>359800</nanos>
+  <sequence>145</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/login</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-02-14T00:41:16.901450600Z</date>
+  <millis>1707871276901</millis>
+  <nanos>450600</nanos>
+  <sequence>3032</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2852</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-14T00:41:30.905941800Z</date>
+  <millis>1707871290905</millis>
+  <nanos>941800</nanos>
+  <sequence>3033</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2856</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-14T00:42:00.464423900Z</date>
+  <millis>1707871320464</millis>
+  <nanos>423900</nanos>
+  <sequence>3034</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2860</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-14T00:42:12.889085600Z</date>
+  <millis>1707871332889</millis>
+  <nanos>85600</nanos>
+  <sequence>3035</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2864</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-14T00:42:51.607183100Z</date>
+  <millis>1707871371607</millis>
+  <nanos>183100</nanos>
+  <sequence>3036</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2872</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-14T00:43:00.403913800Z</date>
+  <millis>1707871380403</millis>
+  <nanos>913800</nanos>
+  <sequence>3037</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2876</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-14T00:43:08.661309900Z</date>
+  <millis>1707871388661</millis>
+  <nanos>309900</nanos>
+  <sequence>3038</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2880</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-14T00:44:39.905966400Z</date>
+  <millis>1707871479905</millis>
+  <nanos>966400</nanos>
+  <sequence>3039</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2885</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-14T00:44:46.808887800Z</date>
+  <millis>1707871486808</millis>
+  <nanos>887800</nanos>
+  <sequence>3040</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2889</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>

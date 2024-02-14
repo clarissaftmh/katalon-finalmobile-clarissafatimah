@@ -799,3 +799,15 @@
 [38;5;48m[AndroidUiautomator2Driver@3cd4 (8b4ccecc)][0m Screen already unlocked, doing nothing
 [38;5;48m[AndroidUiautomator2Driver@3cd4 (8b4ccecc)][0m Starting 'com.Advantage.aShopping/com.Advantage.aShopping.SplashActivity and waiting for 'com.Advantage.aShopping/com.Advantage.aShopping.SplashActivity'
 [38;5;16m[AppiumDriver@9a1d][0m New AndroidUiautomator2Driver session created successfully, session 8b4ccecc-fbc2-4883-bbfa-5997e821e6de added to master session list
+[38;5;48m[AndroidUiautomator2Driver@5088 (d97141cc)][0m Shutting down because we waited 1800 seconds for a command
+[38;5;16m[AppiumDriver@9a1d][0m Ending session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[38;5;16m[AppiumDriver@9a1d][0m Removing session 'd97141cc-585f-4759-9f47-d0c40bca68e7' from our master session list
+[38;5;48m[AndroidUiautomator2Driver@5088 (d97141cc)][0m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[38;5;64m[ADB][0m com.Advantage.aShopping was successfully uninstalled
+[38;5;48m[AndroidUiautomator2Driver@5088 (d97141cc)][0m Restoring hidden api policy to the device default configuration
+[38;5;48m[AndroidUiautomator2Driver@3cd4 (8b4ccecc)][0m Shutting down because we waited 1800 seconds for a command
+[38;5;16m[AppiumDriver@9a1d][0m Ending session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[38;5;16m[AppiumDriver@9a1d][0m Removing session '8b4ccecc-fbc2-4883-bbfa-5997e821e6de' from our master session list
+[38;5;48m[AndroidUiautomator2Driver@3cd4 (8b4ccecc)][0m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[38;5;64m[ADB][0m com.Advantage.aShopping was not uninstalled, because it was not present on the device
+[38;5;48m[AndroidUiautomator2Driver@3cd4 (8b4ccecc)][0m Restoring hidden api policy to the device default configuration

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="login" time="1.641" tests="3" failures="0" errors="3">
+   <testsuite name="login" tests="3" failures="0" errors="3" time="1.641" skipped="0" timestamp="14-02-2024T06:42:27" hostname="ASUS - LAPTOP-86QR281O" id="Test Suites/login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ASUS\\Documents\\Bismillah BFLP IT\\BOOTCAMP IT\\Katalon\\katalon-finalmobile-clarissafatimah\\Reports\\20240214_064221\\login\\20240214_064221"/>
+         <property name="logFiles" value="C:\\Users\\ASUS\\Documents\\Bismillah BFLP IT\\BOOTCAMP IT\\Katalon\\katalon-finalmobile-clarissafatimah\\Reports\\20240214_064221\\login\\20240214_064221\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ASUS - LAPTOP-86QR281O"/>
+         <property name="hostAddress" value="192.168.18.137"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+      </properties>
+      <testcase name="Test Cases/login" time="0.091" classname="Test Cases/login" status="ERROR">
+         <error type="ERROR" message="Test Cases/login has ERROR(s).&#xa;Reason:&#xa;org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:&#xa;Script1280118708241100.groovy: 60: Unexpected input: '{\nprintln(&quot;Login berhasil!&quot;)\n\n//Mobile.tap(findTestObject('Object Repository/login/android.widget.Button - LOGIN'), 0)\nMobile.tap(findTestObject('Object Repository/login/loggin yes'), 0)\nMobile.tap(findTestObject('Object Repository/login/home'), 0)\n}\n\n\n//\n//\n//if ((Mobile.verifyElementExist(findTestObject('Object Repository/login/loggin yes'), 0) == true )) {\n//\tprintln(&quot;Login berhasil!&quot;)\n//\t\n//\t//Mobile.tap(findTestObject('Object Repository/login/android.widget.Button - LOGIN'), 0)\n//\tMobile.tap(findTestObject('Object Repository/login/loggin yes'), 0)\n//\tMobile.tap(findTestObject('Object Repository/login/home'), 0)\n//}else {\n//\tMobile.verifyElementExist(findTestObject('Object Repository/login/uname pass incorrect'), 0)\n//\tprintln(&quot;Username atau password salah!&quot;)\n//\t\n}' @ line 60, column 1.&#xa;   }&#xa;   ^&#xa;&#xa;1 error&#xa;"/>
+         <system-out><![CDATA[14-02-2024T06:42:28 - [TEST_CASE][ERROR] - Test Cases/login: Test Cases/login has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script1280118708241100.groovy: 60: Unexpected input: '{\nprintln("Login berhasil!")\n\n//Mobile.tap(findTestObject('Object Repository/login/android.widget.Button - LOGIN'), 0)\nMobile.tap(findTestObject('Object Repository/login/loggin yes'), 0)\nMobile.tap(findTestObject('Object Repository/login/home'), 0)\n}\n\n\n//\n//\n//if ((Mobile.verifyElementExist(findTestObject('Object Repository/login/loggin yes'), 0) == true )) {\n//\tprintln("Login berhasil!")\n//\t\n//\t//Mobile.tap(findTestObject('Object Repository/login/android.widget.Button - LOGIN'), 0)\n//\tMobile.tap(findTestObject('Object Repository/login/loggin yes'), 0)\n//\tMobile.tap(findTestObject('Object Repository/login/home'), 0)\n//}else {\n//\tMobile.verifyElementExist(findTestObject('Object Repository/login/uname pass incorrect'), 0)\n//\tprintln("Username atau password salah!")\n//\t\n}' @ line 60, column 1.
+   }
+   ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[14-02-2024T06:42:28 - [TEST_CASE][ERROR] - Test Cases/login: Test Cases/login has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script1280118708241100.groovy: 60: Unexpected input: '{\nprintln("Login berhasil!")\n\n//Mobile.tap(findTestObject('Object Repository/login/android.widget.Button - LOGIN'), 0)\nMobile.tap(findTestObject('Object Repository/login/loggin yes'), 0)\nMobile.tap(findTestObject('Object Repository/login/home'), 0)\n}\n\n\n//\n//\n//if ((Mobile.verifyElementExist(findTestObject('Object Repository/login/loggin yes'), 0) == true )) {\n//\tprintln("Login berhasil!")\n//\t\n//\t//Mobile.tap(findTestObject('Object Repository/login/android.widget.Button - LOGIN'), 0)\n//\tMobile.tap(findTestObject('Object Repository/login/loggin yes'), 0)\n//\tMobile.tap(findTestObject('Object Repository/login/home'), 0)\n//}else {\n//\tMobile.verifyElementExist(findTestObject('Object Repository/login/uname pass incorrect'), 0)\n//\tprintln("Username atau password salah!")\n//\t\n}' @ line 60, column 1.
+   }
+   ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/login" time="0.072" classname="Test Cases/login" status="ERROR">
+         <error type="ERROR" message="Test Cases/login has ERROR(s).&#xa;Reason:&#xa;org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:&#xa;Script1280119165373700.groovy: 60: Unexpected input: '{\nprintln(&quot;Login berhasil!&quot;)\n\n//Mobile.tap(findTestObject('Object Repository/login/android.widget.Button - LOGIN'), 0)\nMobile.tap(findTestObject('Object Repository/login/loggin yes'), 0)\nMobile.tap(findTestObject('Object Repository/login/home'), 0)\n}\n\n\n//\n//\n//if ((Mobile.verifyElementExist(findTestObject('Object Repository/login/loggin yes'), 0) == true )) {\n//\tprintln(&quot;Login berhasil!&quot;)\n//\t\n//\t//Mobile.tap(findTestObject('Object Repository/login/android.widget.Button - LOGIN'), 0)\n//\tMobile.tap(findTestObject('Object Repository/login/loggin yes'), 0)\n//\tMobile.tap(findTestObject('Object Repository/login/home'), 0)\n//}else {\n//\tMobile.verifyElementExist(findTestObject('Object Repository/login/uname pass incorrect'), 0)\n//\tprintln(&quot;Username atau password salah!&quot;)\n//\t\n}' @ line 60, column 1.&#xa;   }&#xa;   ^&#xa;&#xa;1 error&#xa;"/>
+         <system-out><![CDATA[14-02-2024T06:42:28 - [TEST_CASE][ERROR] - Test Cases/login: Test Cases/login has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script1280119165373700.groovy: 60: Unexpected input: '{\nprintln("Login berhasil!")\n\n//Mobile.tap(findTestObject('Object Repository/login/android.widget.Button - LOGIN'), 0)\nMobile.tap(findTestObject('Object Repository/login/loggin yes'), 0)\nMobile.tap(findTestObject('Object Repository/login/home'), 0)\n}\n\n\n//\n//\n//if ((Mobile.verifyElementExist(findTestObject('Object Repository/login/loggin yes'), 0) == true )) {\n//\tprintln("Login berhasil!")\n//\t\n//\t//Mobile.tap(findTestObject('Object Repository/login/android.widget.Button - LOGIN'), 0)\n//\tMobile.tap(findTestObject('Object Repository/login/loggin yes'), 0)\n//\tMobile.tap(findTestObject('Object Repository/login/home'), 0)\n//}else {\n//\tMobile.verifyElementExist(findTestObject('Object Repository/login/uname pass incorrect'), 0)\n//\tprintln("Username atau password salah!")\n//\t\n}' @ line 60, column 1.
+   }
+   ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[14-02-2024T06:42:28 - [TEST_CASE][ERROR] - Test Cases/login: Test Cases/login has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script1280119165373700.groovy: 60: Unexpected input: '{\nprintln("Login berhasil!")\n\n//Mobile.tap(findTestObject('Object Repository/login/android.widget.Button - LOGIN'), 0)\nMobile.tap(findTestObject('Object Repository/login/loggin yes'), 0)\nMobile.tap(findTestObject('Object Repository/login/home'), 0)\n}\n\n\n//\n//\n//if ((Mobile.verifyElementExist(findTestObject('Object Repository/login/loggin yes'), 0) == true )) {\n//\tprintln("Login berhasil!")\n//\t\n//\t//Mobile.tap(findTestObject('Object Repository/login/android.widget.Button - LOGIN'), 0)\n//\tMobile.tap(findTestObject('Object Repository/login/loggin yes'), 0)\n//\tMobile.tap(findTestObject('Object Repository/login/home'), 0)\n//}else {\n//\tMobile.verifyElementExist(findTestObject('Object Repository/login/uname pass incorrect'), 0)\n//\tprintln("Username atau password salah!")\n//\t\n}' @ line 60, column 1.
+   }
+   ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/login" time="0.061" classname="Test Cases/login" status="ERROR">
+         <error type="ERROR" message="Test Cases/login has ERROR(s).&#xa;Reason:&#xa;org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:&#xa;Script1280119465821400.groovy: 60: Unexpected input: '{\nprintln(&quot;Login berhasil!&quot;)\n\n//Mobile.tap(findTestObject('Object Repository/login/android.widget.Button - LOGIN'), 0)\nMobile.tap(findTestObject('Object Repository/login/loggin yes'), 0)\nMobile.tap(findTestObject('Object Repository/login/home'), 0)\n}\n\n\n//\n//\n//if ((Mobile.verifyElementExist(findTestObject('Object Repository/login/loggin yes'), 0) == true )) {\n//\tprintln(&quot;Login berhasil!&quot;)\n//\t\n//\t//Mobile.tap(findTestObject('Object Repository/login/android.widget.Button - LOGIN'), 0)\n//\tMobile.tap(findTestObject('Object Repository/login/loggin yes'), 0)\n//\tMobile.tap(findTestObject('Object Repository/login/home'), 0)\n//}else {\n//\tMobile.verifyElementExist(findTestObject('Object Repository/login/uname pass incorrect'), 0)\n//\tprintln(&quot;Username atau password salah!&quot;)\n//\t\n}' @ line 60, column 1.&#xa;   }&#xa;   ^&#xa;&#xa;1 error&#xa;"/>
+         <system-out><![CDATA[14-02-2024T06:42:29 - [TEST_CASE][ERROR] - Test Cases/login: Test Cases/login has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script1280119465821400.groovy: 60: Unexpected input: '{\nprintln("Login berhasil!")\n\n//Mobile.tap(findTestObject('Object Repository/login/android.widget.Button - LOGIN'), 0)\nMobile.tap(findTestObject('Object Repository/login/loggin yes'), 0)\nMobile.tap(findTestObject('Object Repository/login/home'), 0)\n}\n\n\n//\n//\n//if ((Mobile.verifyElementExist(findTestObject('Object Repository/login/loggin yes'), 0) == true )) {\n//\tprintln("Login berhasil!")\n//\t\n//\t//Mobile.tap(findTestObject('Object Repository/login/android.widget.Button - LOGIN'), 0)\n//\tMobile.tap(findTestObject('Object Repository/login/loggin yes'), 0)\n//\tMobile.tap(findTestObject('Object Repository/login/home'), 0)\n//}else {\n//\tMobile.verifyElementExist(findTestObject('Object Repository/login/uname pass incorrect'), 0)\n//\tprintln("Username atau password salah!")\n//\t\n}' @ line 60, column 1.
+   }
+   ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[14-02-2024T06:42:29 - [TEST_CASE][ERROR] - Test Cases/login: Test Cases/login has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script1280119465821400.groovy: 60: Unexpected input: '{\nprintln("Login berhasil!")\n\n//Mobile.tap(findTestObject('Object Repository/login/android.widget.Button - LOGIN'), 0)\nMobile.tap(findTestObject('Object Repository/login/loggin yes'), 0)\nMobile.tap(findTestObject('Object Repository/login/home'), 0)\n}\n\n\n//\n//\n//if ((Mobile.verifyElementExist(findTestObject('Object Repository/login/loggin yes'), 0) == true )) {\n//\tprintln("Login berhasil!")\n//\t\n//\t//Mobile.tap(findTestObject('Object Repository/login/android.widget.Button - LOGIN'), 0)\n//\tMobile.tap(findTestObject('Object Repository/login/loggin yes'), 0)\n//\tMobile.tap(findTestObject('Object Repository/login/home'), 0)\n//}else {\n//\tMobile.verifyElementExist(findTestObject('Object Repository/login/uname pass incorrect'), 0)\n//\tprintln("Username atau password salah!")\n//\t\n}' @ line 60, column 1.
+   }
+   ^
+
+1 error]]></system-err>
+      </testcase>
+      <system-out><![CDATA[14-02-2024T06:42:27 - [TEST_SUITE][ERROR] - login: Test Cases/login has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script1280118229247100.groovy: 60: Unexpected input: '{\nprintln("Login berhasil!")\n\n//Mobile.tap(findTestObject('Object Repository/login/android.widget.Button - LOGIN'), 0)\nMobile.tap(findTestObject('Object Repository/login/loggin yes'), 0)\nMobile.tap(findTestObject('Object Repository/login/home'), 0)\n}\n\n\n//\n//\n//if ((Mobile.verifyElementExist(findTestObject('Object Repository/login/loggin yes'), 0) == true )) {\n//\tprintln("Login berhasil!")\n//\t\n//\t//Mobile.tap(findTestObject('Object Repository/login/android.widget.Button - LOGIN'), 0)\n//\tMobile.tap(findTestObject('Object Repository/login/loggin yes'), 0)\n//\tMobile.tap(findTestObject('Object Repository/login/home'), 0)\n//}else {\n//\tMobile.verifyElementExist(findTestObject('Object Repository/login/uname pass incorrect'), 0)\n//\tprintln("Username atau password salah!")\n//\t\n}' @ line 60, column 1.
+   }
+   ^
+
+1 error]]></system-out>
+      <system-err><![CDATA[14-02-2024T06:42:27 - [TEST_SUITE][ERROR] - login: Test Cases/login has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script1280118229247100.groovy: 60: Unexpected input: '{\nprintln("Login berhasil!")\n\n//Mobile.tap(findTestObject('Object Repository/login/android.widget.Button - LOGIN'), 0)\nMobile.tap(findTestObject('Object Repository/login/loggin yes'), 0)\nMobile.tap(findTestObject('Object Repository/login/home'), 0)\n}\n\n\n//\n//\n//if ((Mobile.verifyElementExist(findTestObject('Object Repository/login/loggin yes'), 0) == true )) {\n//\tprintln("Login berhasil!")\n//\t\n//\t//Mobile.tap(findTestObject('Object Repository/login/android.widget.Button - LOGIN'), 0)\n//\tMobile.tap(findTestObject('Object Repository/login/loggin yes'), 0)\n//\tMobile.tap(findTestObject('Object Repository/login/home'), 0)\n//}else {\n//\tMobile.verifyElementExist(findTestObject('Object Repository/login/uname pass incorrect'), 0)\n//\tprintln("Username atau password salah!")\n//\t\n}' @ line 60, column 1.
+   }
+   ^
+
+1 error]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1807,3 +1807,15 @@
 [38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'PASSWORD' or . = 'PASSWORD')]"}[39m
 [38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/cb4255e5-b2ba-444b-8204-a985c2f13a87/elements [39m[32m-[39m [90m- ms - -[39m
 [38;5;0m[HTTP][0m [90m[39m
+[38;5;48m[AndroidUiautomator2Driver@b333 (ecee079c)][0m Shutting down because we waited 1800 seconds for a command
+[38;5;16m[AppiumDriver@4946][0m Ending session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[38;5;16m[AppiumDriver@4946][0m Removing session 'ecee079c-5370-443e-9fdb-4f6cb8963974' from our master session list
+[38;5;48m[AndroidUiautomator2Driver@b333 (ecee079c)][0m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[38;5;64m[ADB][0m com.Advantage.aShopping was not uninstalled, because it was not present on the device
+[38;5;48m[AndroidUiautomator2Driver@b333 (ecee079c)][0m Restoring hidden api policy to the device default configuration
+[38;5;48m[AndroidUiautomator2Driver@24f0 (cb4255e5)][0m Shutting down because we waited 1800 seconds for a command
+[38;5;16m[AppiumDriver@4946][0m Ending session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[38;5;16m[AppiumDriver@4946][0m Removing session 'cb4255e5-b2ba-444b-8204-a985c2f13a87' from our master session list
+[38;5;48m[AndroidUiautomator2Driver@24f0 (cb4255e5)][0m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[38;5;64m[ADB][0m com.Advantage.aShopping was not uninstalled, because it was not present on the device
+[38;5;48m[AndroidUiautomator2Driver@24f0 (cb4255e5)][0m Restoring hidden api policy to the device default configuration
