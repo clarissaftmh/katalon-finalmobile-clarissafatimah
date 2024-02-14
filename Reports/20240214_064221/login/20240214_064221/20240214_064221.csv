@@ -1,8 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-login,,,,14-02-2024 06:42:27,14-02-2024 06:42:29,1.641s,ERROR
-,,,,,,,
-Test Cases/login,,,,14-02-2024 06:42:28,14-02-2024 06:42:28,0.091s,ERROR
-,,,,,,,
-Test Cases/login,,,,14-02-2024 06:42:28,14-02-2024 06:42:28,0.072s,ERROR
-,,,,,,,
-Test Cases/login,,,,14-02-2024 06:42:29,14-02-2024 06:42:29,0.061s,ERROR

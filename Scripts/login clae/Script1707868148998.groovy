@@ -54,16 +54,25 @@ Mobile.tap(findTestObject('Object Repository/login/android.widget.Button - LOGIN
 
 def waitTime = 10 
 
-if (Mobile.verifyElementExist(findTestObject('Object Repository/login/uname pass incorrect'), waitTime) == true) {
-	println("Username atau password salah!")
-} else if (Mobile.verifyElementExist(findTestObject('Object Repository/login/loggin yes'), waitTime) == true) {
-	println("Login berhasil!")
-	Mobile.tap(findTestObject('Object Repository/login/loggin yes'), 0)
-	Mobile.tap(findTestObject('Object Repository/login/home'), 0)
-} else {
-	println("Element untuk login berhasil tidak ditemukan!")
-	}
+//if (Mobile.verifyElementNotExist(findTestObject('Object Repository/login/uname pass incorrect'), waitTime)) {
+//	println("Username atau password salah!")
+//} else if (Mobile.verifyElementVisible(findTestObject('Object Repository/login/loggin yes'), waitTime)) {
+//	println("Login berhasil!")
+//	Mobile.tap(findTestObject('Object Repository/login/loggin yes'), 0)
+//	Mobile.tap(findTestObject('Object Repository/login/home'), 0)
+//} else {
+//	println("Element untuk login berhasil tidak ditemukan!")
+//	}
 
+	
+if (Mobile.waitForElementPresent(findTestObject('Object Repository/login/uname pass incorrect'), waitTime, FailureHandling.OPTIONAL)) {
+		println("Username atau password salah!")
+	} else {
+		println("Login berhasil!")
+		Mobile.tap(findTestObject('Object Repository/login/loggin yes'), 0)
+		Mobile.tap(findTestObject('Object Repository/login/home'), 0)
+	}
+	
 //def waitTime = 20// Waktu tunggu dalam detik
 //
 //// Menunggu untuk memastikan elemen username/pass salah tidak ditemukan

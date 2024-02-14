@@ -1,0 +1,42 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+login,,,,14-02-2024 09:18:40,14-02-2024 09:24:53,6m - 12.164s,PASSED
+,,,,,,,
+Test Cases/login,,,,14-02-2024 09:18:41,14-02-2024 09:19:48,1m - 6.882s,PASSED
+"startApplication(""C:\Users\ASUS\Downloads\Advantage+demo+3.2.apk"", true)",,,,14-02-2024 09:18:43,14-02-2024 09:19:23,40.101s,PASSED
+"tap(findTestObject(""Object Repository/login/android.widget.ImageView""), 0)",,,,14-02-2024 09:19:23,14-02-2024 09:19:27,4.728s,PASSED
+"tap(findTestObject(""Object Repository/login/android.widget.TextView - LOGIN""), 0)",,,,14-02-2024 09:19:27,14-02-2024 09:19:30,2.103s,PASSED
+"tap(findTestObject(""Object Repository/login/username tap""), 0)",,,,14-02-2024 09:19:30,14-02-2024 09:19:32,2.827s,PASSED
+"setText(findTestObject(""Object Repository/login/input username""), username, 0)",,,,14-02-2024 09:19:32,14-02-2024 09:19:36,3.680s,PASSED
+"tap(findTestObject(""Object Repository/login/password tap""), 0)",,,,14-02-2024 09:19:36,14-02-2024 09:19:38,1.521s,PASSED
+"setText(findTestObject(""Object Repository/login/input password""), password, 0)",,,,14-02-2024 09:19:38,14-02-2024 09:19:41,3.024s,PASSED
+"tap(findTestObject(""Object Repository/login/android.widget.Button - LOGIN""), 0)",,,,14-02-2024 09:19:41,14-02-2024 09:19:43,2.348s,PASSED
+waitTime = 10,,,,14-02-2024 09:19:43,14-02-2024 09:19:43,0.007s,PASSED
+"if (waitForElementPresent(findTestObject(""Object Repository/login/uname pass incorrect""), waitTime, OPTIONAL))",,,,14-02-2024 09:19:43,14-02-2024 09:19:46,2.935s,PASSED
+Video,,,,14-02-2024 09:19:48,14-02-2024 09:19:48,0.004s,PASSED
+,,,,,,,
+Test Cases/login,,,,14-02-2024 09:21:41,14-02-2024 09:22:24,43.109s,PASSED
+"startApplication(""C:\Users\ASUS\Downloads\Advantage+demo+3.2.apk"", true)",,,,14-02-2024 09:21:41,14-02-2024 09:22:01,19.549s,PASSED
+"tap(findTestObject(""Object Repository/login/android.widget.ImageView""), 0)",,,,14-02-2024 09:22:01,14-02-2024 09:22:05,4.058s,PASSED
+"tap(findTestObject(""Object Repository/login/android.widget.TextView - LOGIN""), 0)",,,,14-02-2024 09:22:05,14-02-2024 09:22:06,1.179s,PASSED
+"tap(findTestObject(""Object Repository/login/username tap""), 0)",,,,14-02-2024 09:22:06,14-02-2024 09:22:09,2.720s,PASSED
+"setText(findTestObject(""Object Repository/login/input username""), username, 0)",,,,14-02-2024 09:22:09,14-02-2024 09:22:12,3.031s,PASSED
+"tap(findTestObject(""Object Repository/login/password tap""), 0)",,,,14-02-2024 09:22:12,14-02-2024 09:22:13,1.476s,PASSED
+"setText(findTestObject(""Object Repository/login/input password""), password, 0)",,,,14-02-2024 09:22:13,14-02-2024 09:22:16,3.262s,PASSED
+"tap(findTestObject(""Object Repository/login/android.widget.Button - LOGIN""), 0)",,,,14-02-2024 09:22:16,14-02-2024 09:22:18,1.406s,PASSED
+waitTime = 10,,,,14-02-2024 09:22:18,14-02-2024 09:22:18,0.002s,PASSED
+"if (waitForElementPresent(findTestObject(""Object Repository/login/uname pass incorrect""), waitTime, OPTIONAL))",,,,14-02-2024 09:22:18,14-02-2024 09:22:22,4.246s,PASSED
+Video,,,,14-02-2024 09:22:24,14-02-2024 09:22:24,0.002s,PASSED
+,,,,,,,
+Test Cases/login,,,,14-02-2024 09:24:04,14-02-2024 09:24:53,48.837s,PASSED
+"startApplication(""C:\Users\ASUS\Downloads\Advantage+demo+3.2.apk"", true)",,,,14-02-2024 09:24:04,14-02-2024 09:24:16,12.405s,PASSED
+"tap(findTestObject(""Object Repository/login/android.widget.ImageView""), 0)",,,,14-02-2024 09:24:16,14-02-2024 09:24:21,4.359s,PASSED
+"tap(findTestObject(""Object Repository/login/android.widget.TextView - LOGIN""), 0)",,,,14-02-2024 09:24:21,14-02-2024 09:24:22,1.162s,PASSED
+"tap(findTestObject(""Object Repository/login/username tap""), 0)",,,,14-02-2024 09:24:22,14-02-2024 09:24:25,2.757s,PASSED
+"setText(findTestObject(""Object Repository/login/input username""), username, 0)",,,,14-02-2024 09:24:25,14-02-2024 09:24:28,3.027s,PASSED
+"tap(findTestObject(""Object Repository/login/password tap""), 0)",,,,14-02-2024 09:24:28,14-02-2024 09:24:29,1.448s,PASSED
+"setText(findTestObject(""Object Repository/login/input password""), password, 0)",,,,14-02-2024 09:24:29,14-02-2024 09:24:32,2.821s,PASSED
+"tap(findTestObject(""Object Repository/login/android.widget.Button - LOGIN""), 0)",,,,14-02-2024 09:24:32,14-02-2024 09:24:33,1.302s,PASSED
+waitTime = 10,,,,14-02-2024 09:24:33,14-02-2024 09:24:33,0.002s,PASSED
+"if (waitForElementPresent(findTestObject(""Object Repository/login/uname pass incorrect""), waitTime, OPTIONAL))",,,,14-02-2024 09:24:33,14-02-2024 09:24:43,10.191s,PASSED
+else,,,,14-02-2024 09:24:43,14-02-2024 09:24:50,7.132s,PASSED
+Video,,,,14-02-2024 09:24:53,14-02-2024 09:24:53,0.001s,PASSED
