@@ -41,7 +41,5 @@ Mobile.tap(findTestObject('Object Repository/login/android.widget.Button - LOGIN
 
 Mobile.tap(findTestObject('Object Repository/login/loggin yes'), 0)
 
-Mobile.tap(findTestObject('Object Repository/login/home'), 0)
-
 Mobile.closeApplication()
 

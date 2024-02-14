@@ -1,0 +1,12 @@
+1
+00:00:00,001 --> 00:00:28,276
+1. startApplication("C:\Users\ASUS\Downloads\Advantage+demo+3.2.apk", true)
+
+2
+00:00:28,279 --> 00:00:35,055
+5. tap(findTestObject("Object Repository/login/android.widget.ImageView"), 0)
+
+3
+00:00:35,058 --> 00:00:44,450
+9. tap(findTestObject("Object Repository/login/android.widget.TextView - LOGIN"), 0)
+
